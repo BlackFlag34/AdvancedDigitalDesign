@@ -1,0 +1,1299 @@
+15:48:13 **** Incremental Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -lxil
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU.elf] Error 1
+15:49:03 **** Incremental Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -lxil
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU.elf] Error 1
+15:56:45 **** Auto Build of project ALU_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+15:57:05 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70600	   2580	  23328	  96508	  178fc	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:00:05 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'main':
+../src/ALU.c:5:12: warning: unused variable 'regmap' [-Wunused-variable]
+  uint32_t *regmap = (uint32_t *) 0x70000000;
+            ^~~~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70216	   2580	  23328	  96124	  1777c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:12:45 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'main':
+../src/ALU.c:6:12: warning: unused variable 'regmap' [-Wunused-variable]
+  uint32_t *regmap = (uint32_t *) 0x70000000;
+            ^~~~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70216	   2580	  23328	  96124	  1777c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:16:05 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:52: warning: suggest parentheses around operand of '!' or change '&' to '&&' or '!' to '~' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)", r, ((A & !B) | (!A & B)) == r) ? "COR" : "ERR");
+                                                    ^~
+../src/ALU.c:36:31: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+     printf("A xor B =  %3zu (%s)", r, ((A & !B) | (!A & B)) == r) ? "COR" : "ERR");
+                              ~^       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+                              %d
+../src/ALU.c:36:82: error: expected ';' before ')' token
+     printf("A xor B =  %3zu (%s)", r, ((A & !B) | (!A & B)) == r) ? "COR" : "ERR");
+                                                                                  ^
+../src/ALU.c:36:82: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+16:16:48 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:64: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)", r, ((A & (!B)) | ((!A) & B) == r) ? "COR" : "ERR");
+                                                     ~~~~~~~~~~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70832	   2580	  23328	  96740	  179e4	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:17:03 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70832	   2580	  23328	  96740	  179e4	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:18:04 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70960	   2580	  23328	  96868	  17a64	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:18:26 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:40:31: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+     printf("A nor B =  %3zu (%s)", r, (((!A) & (!B))) == r) ? "COR" : "ERR");
+                              ~^       ~~~~~~~~~~~~~~~~~~~~
+                              %d
+../src/ALU.c:40:76: error: expected ';' before ')' token
+     printf("A nor B =  %3zu (%s)", r, (((!A) & (!B))) == r) ? "COR" : "ERR");
+                                                                            ^
+../src/ALU.c:40:76: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+16:18:30 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70920	   2580	  23328	  96828	  17a3c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:18:46 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:40:52: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+     printf("A nor B =  %3zu (%s)", r, ((!A) & (!B) == r) ? "COR" : "ERR");
+                                               ~~~~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70984	   2580	  23328	  96892	  17a7c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:18:55 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70920	   2580	  23328	  96828	  17a3c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:20:53 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:44:29: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+     printf("A + B =  %3zu (%s) ", r, (A + B) == r) ? "COR" : "ERR");
+                            ~^        ~~~~~~~~~~~~
+                            %d
+../src/ALU.c:44:67: error: expected ';' before ')' token
+     printf("A + B =  %3zu (%s) ", r, (A + B) == r) ? "COR" : "ERR");
+                                                                   ^
+../src/ALU.c:44:67: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+16:21:03 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71000	   2580	  23328	  96908	  17a8c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:23:50 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71432	   2580	  23328	  97340	  17c3c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:24:16 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71432	   2580	  23328	  97340	  17c3c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:27:43 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71600	   2580	  23328	  97508	  17ce4	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:36:58 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:68:33: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+     printf("A << %2zu =  %3zu (%s) ",shamt, r, ((A << shamt)) == r) ? "COR" : "ERR");
+                                ~^              ~~~~~~~~~~~~~~~~~~~
+                                %d
+../src/ALU.c:68:84: error: expected ';' before ')' token
+     printf("A << %2zu =  %3zu (%s) ",shamt, r, ((A << shamt)) == r) ? "COR" : "ERR");
+                                                                                    ^
+../src/ALU.c:68:84: error: expected statement before ')' token
+../src/ALU.c:76:33: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+     printf("A >> %2zu =  %3zu (%s) (L) ",shamt, r, ((A >> shamt)) == r) ? "COR" : "ERR");
+                                ~^                  ~~~~~~~~~~~~~~~~~~~
+                                %d
+../src/ALU.c:76:88: error: expected ';' before ')' token
+     printf("A >> %2zu =  %3zu (%s) (L) ",shamt, r, ((A >> shamt)) == r) ? "COR" : "ERR");
+                                                                                        ^
+../src/ALU.c:76:88: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+16:37:21 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71832	   2580	  23328	  97740	  17dcc	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:40:20 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72216	   2580	  23328	  98124	  17f4c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:50:12 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_bsp/ps7_cortexa9_0/lib -o "ALU.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU.elf  |tee "ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72216	   2580	  23328	  98124	  17f4c	ALU.elf
+'Finished building: ALU.elf.size'
+' '
+16:57:52 **** Build of project ALU_2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:58:14 **** Build of configuration Debug for project ALU_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ALU_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_2_bsp/ps7_cortexa9_0/lib -o "ALU_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_2.elf  |tee "ALU_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	ALU_2.elf
+'Finished building: ALU_2.elf.size'
+' '
+16:59:10 **** Auto Build of configuration Debug for project ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:00:44 **** Build of project ALU_V3_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project ALU_V3 ****
+
+Nothing to build for project ALU_V3
+17:01:20 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../ALU_V3_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_2\Lab_2.sdk\ALU_V3_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU_V3.elf] Error 1
+17:01:29 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72216	   2580	  23328	  98124	  17f4c	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:02:15 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:02:54 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72216	   2580	  23328	  98124	  17f4c	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:03:06 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:03:25 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:03:53 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72216	   2580	  23328	  98124	  17f4c	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:03:55 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:04:28 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72240	   2580	  23328	  98148	  17f64	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:04:32 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:05:50 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72176	   2580	  23328	  98084	  17f24	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:07:04 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72176	   2580	  23328	  98084	  17f24	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:07:06 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:07:51 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72176	   2580	  23328	  98084	  17f24	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+17:08:03 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:08:29 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:10:03 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:59:20 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72176	   2580	  23328	  98084	  17f24	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+23:03:10 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:04:04 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72176	   2580	  23328	  98084	  17f24	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+23:04:05 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:05:11 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72176	   2580	  23328	  98084	  17f24	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+23:05:14 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:05:32 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:10:12 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ALU.o: In function `testBench':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_2\Lab_2.sdk\ALU_V3\Debug/../src/ALU.c:72: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU_V3.elf] Error 1
+23:10:13 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ALU.o: In function `testBench':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_2\Lab_2.sdk\ALU_V3\Debug/../src/ALU.c:72: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU_V3.elf] Error 1
+23:10:22 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ALU.o: In function `testBench':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_2\Lab_2.sdk\ALU_V3\Debug/../src/ALU.c:72: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU_V3.elf] Error 1
+23:10:45 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+../src/ALU.c:72:61: error: 'std' undeclared (first use in this function)
+     printf("A >> %2zu =  %3zu (%s) (A) \n",shamt, r, ((A / (std::pow(2,shamt)))  == r) ? "COR" : "ERR");
+                                                             ^~~
+../src/ALU.c:72:61: note: each undeclared identifier is reported only once for each function it appears in
+../src/ALU.c:72:64: error: expected ')' before ':' token
+     printf("A >> %2zu =  %3zu (%s) (A) \n",shamt, r, ((A / (std::pow(2,shamt)))  == r) ? "COR" : "ERR");
+                                                                ^
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+23:11:48 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:36:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ALU.o: In function `testBench':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_2\Lab_2.sdk\ALU_V3\Debug/../src/ALU.c:72: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ALU_V3.elf] Error 1
+23:15:34 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:37:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+../src/ALU.c:73:56: error: expected expression before ')' token
+     printf("A >> %2zu =  %3zu (%s) (A) \n",shamt, r, (())  == r) ? "COR" : "ERR");
+                                                        ^
+../src/ALU.c:73:81: error: expected ';' before ')' token
+     printf("A >> %2zu =  %3zu (%s) (A) \n",shamt, r, (())  == r) ? "COR" : "ERR");
+                                                                                 ^
+../src/ALU.c:73:81: error: expected statement before ')' token
+../src/ALU.c:77:56: error: 'UA' undeclared (first use in this function); did you mean 'A'?
+     printf("A >> %2zu =  %3zu (%s) (L) \n",shamt, r, ((UA >> shamt) == r) ? "COR" : "ERR");
+                                                        ^~
+                                                        A
+../src/ALU.c:77:56: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+23:16:03 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:37:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+../src/ALU.c:73:89: error: expected ')' before ';' token
+     printf("A >> %2zu =  %3zu (%s) (A) \n",shamt, r, ((A>> shamt  == r) ? "COR" : "ERR");
+                                                                                         ^
+../src/ALU.c:81:4: error: expected ';' before '}' token
+    }
+    ^
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+23:16:14 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:37:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+../src/ALU.c:77:33: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+     printf("A >> %2zu =  %3zu (%s) (L) \n",shamt, r, (A >> shamt) == r) ? "COR" : "ERR");
+                                ~^                    ~~~~~~~~~~~~~~~~~
+                                %d
+../src/ALU.c:77:88: error: expected ';' before ')' token
+     printf("A >> %2zu =  %3zu (%s) (L) \n",shamt, r, (A >> shamt) == r) ? "COR" : "ERR");
+                                                                                        ^
+../src/ALU.c:77:88: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/ALU.o] Error 1
+23:16:21 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:37:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72128	   2580	  23328	  98036	  17ef4	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+23:16:45 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:37:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72128	   2580	  23328	  98036	  17ef4	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+23:16:50 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:17:11 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:17:38 **** Auto Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ALU_V3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ALU.d" -MT"src/ALU.o" -o "src/ALU.o" "../src/ALU.c"
+../src/ALU.c: In function 'testBench':
+../src/ALU.c:37:48: warning: suggest parentheses around comparison in operand of '^' [-Wparentheses]
+     printf("A xor B =  %3zu (%s)\n", r, (A ^ B == r) ? "COR" : "ERR");
+                                              ~~^~~~
+'Finished building: ../src/ALU.c'
+' '
+'Building target: ALU_V3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ALU_V3_bsp/ps7_cortexa9_0/lib -o "ALU_V3.elf"  ./src/ALU.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALU_V3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ALU_V3.elf  |tee "ALU_V3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72128	   2580	  23328	  98036	  17ef4	ALU_V3.elf
+'Finished building: ALU_V3.elf.size'
+' '
+23:17:42 **** Incremental Build of configuration Debug for project ALU_V3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

@@ -1,0 +1,2148 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov  7 12:27:52 2023
+# Process ID: 24116
+# Current directory: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.runs/Lab_4_Mips_CPU_0_0_synth_1
+# Command line: vivado.exe -log Lab_4_Mips_CPU_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab_4_Mips_CPU_0_0.tcl
+# Log file: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.runs/Lab_4_Mips_CPU_0_0_synth_1/Lab_4_Mips_CPU_0_0.vds
+# Journal file: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.runs/Lab_4_Mips_CPU_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Lab_4_Mips_CPU_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tyqca/OneDrive/School/Labs/1195_Labs/IntraLab_resources/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top Lab_4_Mips_CPU_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23844 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 372.621 ; gain = 104.867
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Lab_4_Mips_CPU_0_0' [c:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/bd/Lab_4/ip/Lab_4_Mips_CPU_0_0/synth/Lab_4_Mips_CPU_0_0.vhd:67]
+INFO: [Synth 8-3491] module 'Mips_CPU' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:4' bound to instance 'U0' of component 'Mips_CPU' [c:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/bd/Lab_4/ip/Lab_4_Mips_CPU_0_0/synth/Lab_4_Mips_CPU_0_0.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'Mips_CPU' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:15]
+INFO: [Synth 8-3491] module 'Register_File' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:4' bound to instance 'RF' of component 'Register_File' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'Register_File' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:16]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:13]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'flipflop' (1#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:19]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'Register_AsyncReset' (2#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:13]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:32]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:38]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:73]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:108]
+INFO: [Synth 8-256] done synthesizing module 'Register_File' (3#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Register_File.vhd:16]
+INFO: [Synth 8-3491] module 'Control_Unit_CPU' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:4' bound to instance 'CU' of component 'Control_Unit_CPU' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'Control_Unit_CPU' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:27]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:40]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:115]
+WARNING: [Synth 8-614] signal 'Op' is read in the process but is not in the sensitivity list [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:112]
+WARNING: [Synth 8-614] signal 'special_OP' is read in the process but is not in the sensitivity list [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'Control_Unit_CPU' (4#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:27]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:5' bound to instance 'ALU_map' of component 'ALU' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:13]
+INFO: [Synth 8-3491] module 'ALU_Logical' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Logical.vhd:4' bound to instance 'LOGIC' of component 'ALU_Logical' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'ALU_Logical' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Logical.vhd:10]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Logical.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'ALU_Logical' (5#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Logical.vhd:10]
+INFO: [Synth 8-3491] module 'ALU_Comp' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Comp.vhd:6' bound to instance 'COMPARE' of component 'ALU_Comp' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'ALU_Comp' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Comp.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ALU_Comp' (6#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Comp.vhd:12]
+INFO: [Synth 8-3491] module 'ALU_Mux' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Mux.vhd:6' bound to instance 'MUXER' of component 'ALU_Mux' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'ALU_Mux' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Mux.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Mux.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ALU_Mux' (7#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Mux.vhd:12]
+INFO: [Synth 8-3491] module 'ALU_Shift' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Shift.vhd:7' bound to instance 'SHIFTER' of component 'ALU_Shift' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'ALU_Shift' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Shift.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'ALU_Shift' (8#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/ALU_Shift.vhd:14]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Arith_Unit' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/src/Arith_Unit.vhd:9' bound to instance 'ARITH' of component 'Arith_Unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'Arith_Unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/src/Arith_Unit.vhd:27]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Arith_Unit' (9#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/src/Arith_Unit.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (10#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd:13]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'A_reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:184]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'B_reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:188]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'ALU_out' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:192]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'PC' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:196]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'Instruction_register' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:200]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_2' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:4' bound to instance 'Address_Mux' of component 'MUX_2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'MUX_2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:13]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2' (11#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:13]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_4' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_4.vhd:4' bound to instance 'PC_Mux' of component 'MUX_4' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:208]
+INFO: [Synth 8-638] synthesizing module 'MUX_4' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_4.vhd:15]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_4.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'MUX_4' (12#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_4.vhd:15]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_2' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:4' bound to instance 'A_Mux' of component 'MUX_2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:213]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_4' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_4.vhd:4' bound to instance 'B_Mux' of component 'MUX_4' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:217]
+	Parameter n1 bound to: 16 - type: integer 
+	Parameter n2 bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'SignExtender' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/SignExtender.vhd:4' bound to instance 'extender' of component 'SignExtender' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'SignExtender' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/SignExtender.vhd:13]
+	Parameter n1 bound to: 16 - type: integer 
+	Parameter n2 bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SignExtender' (13#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/SignExtender.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+	Parameter shift bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'LSL_set' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/LSL_set.vhd:4' bound to instance 'ILSL' of component 'LSL_set' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'LSL_set' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/LSL_set.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+	Parameter shift bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LSL_set' (14#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/LSL_set.vhd:11]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_2' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:4' bound to instance 'Write_reg_Mux' of component 'MUX_2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'MUX_2__parameterized2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:13]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2__parameterized2' (14#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:13]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_7' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_7.vhd:4' bound to instance 'Write_data_Mux' of component 'MUX_7' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'MUX_7' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_7.vhd:18]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MUX_7' (15#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_7.vhd:18]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'Memory_data_reg' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:242]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'MUX_2' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/MUX_2.vhd:4' bound to instance 'Shamt_mux' of component 'MUX_2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:246]
+INFO: [Synth 8-3491] module 'CLO_unit' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/CLO_unit.vhd:5' bound to instance 'CLO' of component 'CLO_unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:250]
+INFO: [Synth 8-638] synthesizing module 'CLO_unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/CLO_unit.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'CLO_unit' (16#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/CLO_unit.vhd:10]
+INFO: [Synth 8-3491] module 'Multiplyer_unit' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:5' bound to instance 'Mult' of component 'Multiplyer_unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'Multiplyer_unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:14]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'LSL_Resgister_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSL_Resgister_AsyncReset.vhd:4' bound to instance 'Multiplicand' of component 'LSL_Resgister_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LSL_Resgister_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSL_Resgister_AsyncReset.vhd:14]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LSL_Resgister_AsyncReset' (17#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSL_Resgister_AsyncReset.vhd:14]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'LSR_Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSR_Register_AsyncReset.vhd:4' bound to instance 'Multiplier' of component 'LSR_Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'LSR_Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSR_Register_AsyncReset.vhd:14]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LSR_Register_AsyncReset' (18#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSR_Register_AsyncReset.vhd:14]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'adder' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/adder/adder.vhd:5' bound to instance 'Accumulator' of component 'adder' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/adder/adder.vhd:16]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'adder' (19#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/adder/adder.vhd:16]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'Register_AsyncReset' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:4' bound to instance 'Product' of component 'Register_AsyncReset' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'Register_AsyncReset__parameterized2' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:13]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Synth 8-3491] module 'flipflop' declared at 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd:5' bound to instance 'FF' of component 'flipflop' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:24]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'Register_AsyncReset__parameterized2' (19#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'Control_Unit' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:14]
+WARNING: [Synth 8-614] signal 'next_state' is read in the process but is not in the sensitivity list [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:20]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'Control_Unit' (20#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'Generic_bit_counter' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Generic_bit_counter.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Generic_bit_counter' (21#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Generic_bit_counter.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Multiplyer_unit' (22#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/new/Multiplyer_unit.vhd:14]
+	Parameter n bound to: 32 - type: integer 
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Mips_CPU' (23#1) [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Mips_CPU.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Lab_4_Mips_CPU_0_0' (24#1) [c:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/bd/Lab_4/ip/Lab_4_Mips_CPU_0_0/synth/Lab_4_Mips_CPU_0_0.vhd:67]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[31]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[30]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[29]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[28]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[27]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[26]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[25]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[24]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[23]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[22]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[21]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[20]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[19]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[18]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[17]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[16]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[15]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[14]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[13]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[12]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[11]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[10]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[9]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[8]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[7]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[6]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[5]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[4]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[3]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[2]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port LSR_out[1]
+WARNING: [Synth 8-3331] design LSL_set has unconnected port input[31]
+WARNING: [Synth 8-3331] design LSL_set has unconnected port input[30]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 429.906 ; gain = 162.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 429.906 ; gain = 162.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 429.906 ; gain = 162.152
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 790.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 790.387 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 793.473 ; gain = 3.086
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 793.473 ; gain = 525.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 793.473 ; gain = 525.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 793.473 ; gain = 525.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'Control_Unit_CPU'
+INFO: [Synth 8-5546] ROM "PCWrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegWrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegWrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "current_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "current_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mem_to_Reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mem_to_Reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "Shamt_sel" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "signed_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "MemWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IRWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "A_EN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "B_EN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALU_out_EN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MDR_EN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mult_EN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCWriteCond" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "HI_EN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUSrcB" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegDst" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IorD" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "current_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "current_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'LSL_load_reg' into 'LSR_load_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:30]
+INFO: [Synth 8-4471] merging register 'LSL_shift_reg' into 'LSR_shift_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:32]
+INFO: [Synth 8-4471] merging register 'start_reg' into 'LSR_load_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/imports/sources_1/new/Control_Unit.vhd:33]
+INFO: [Synth 8-5544] ROM "LSR_load" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LSR_load" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               resetting |                             0000 |                             0000
+       instruction_fetch |                             0001 |                             0001
+      instruction_decode |                             0010 |                             0010
+  memory_address_compute |                             0011 |                             0011
+       memory_acess_save |                             0100 |                             0110
+       memory_acess_load |                             0101 |                             0100
+        memory_load_done |                             0110 |                             0101
+              i_type_exe |                             0111 |                             1011
+             i_type_done |                             1000 |                             1100
+                    move |                             1001 |                             1111
+            multiply_exe |                             1010 |                             1110
+              r_type_exe |                             1011 |                             0111
+             r_type_done |                             1100 |                             1000
+               jump_done |                             1101 |                             1010
+              branch_exe |                             1110 |                             1001
+                 clo_exe |                             1111 |                             1101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'Control_Unit_CPU'
+WARNING: [Synth 8-327] inferring latch for variable 'PCWriteCond_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:119]
+WARNING: [Synth 8-327] inferring latch for variable 'IorD_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:137]
+WARNING: [Synth 8-327] inferring latch for variable 'Mem_to_Reg_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:136]
+WARNING: [Synth 8-327] inferring latch for variable 'PCSource_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:132]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:117]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrcB_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:133]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrcA_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:134]
+WARNING: [Synth 8-327] inferring latch for variable 'RegDst_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:135]
+WARNING: [Synth 8-327] inferring latch for variable 'signed_flag_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:139]
+WARNING: [Synth 8-327] inferring latch for variable 'Shamt_sel_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:138]
+WARNING: [Synth 8-327] inferring latch for variable 'HI_EN_reg' [C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.srcs/sources_1/new/Control_Unit_CPU.vhd:129]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 793.473 ; gain = 525.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 31    
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1347  
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 15    
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  16 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	  16 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 16    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 26    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module flipflop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Control_Unit_CPU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  16 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  16 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 26    
+Module ALU_Logical 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module ALU_Comp 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ALU_Mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module ALU_Shift 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+Module Arith_Unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX_2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX_4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX_2__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module CLO_unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 31    
+Module LSL_Resgister_AsyncReset 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module LSR_Register_AsyncReset 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+Module Control_Unit 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+Module Generic_bit_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/Mult/\Controller/done_flag_reg )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 793.473 ; gain = 525.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 793.473 ; gain = 525.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 794.129 ; gain = 526.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    25|
+|2     |LUT1   |     1|
+|3     |LUT2   |   114|
+|4     |LUT3   |   134|
+|5     |LUT4   |    46|
+|6     |LUT5   |   177|
+|7     |LUT6   |   894|
+|8     |MUXF7  |   261|
+|9     |FDCE   |  1456|
+|10    |FDPE   |     1|
+|11    |FDRE   |     2|
+|12    |LD     |    18|
+|13    |LDC    |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------+------------------------------------+------+
+|      |Instance                 |Module                              |Cells |
++------+-------------------------+------------------------------------+------+
+|1     |top                      |                                    |  3130|
+|2     |  U0                     |Mips_CPU                            |  3130|
+|3     |    ALU_out              |Register_AsyncReset                 |    32|
+|4     |      \L1[0].FF          |flipflop_1352                       |     1|
+|5     |      \L1[10].FF         |flipflop_1353                       |     1|
+|6     |      \L1[11].FF         |flipflop_1354                       |     1|
+|7     |      \L1[12].FF         |flipflop_1355                       |     1|
+|8     |      \L1[13].FF         |flipflop_1356                       |     1|
+|9     |      \L1[14].FF         |flipflop_1357                       |     1|
+|10    |      \L1[15].FF         |flipflop_1358                       |     1|
+|11    |      \L1[16].FF         |flipflop_1359                       |     1|
+|12    |      \L1[17].FF         |flipflop_1360                       |     1|
+|13    |      \L1[18].FF         |flipflop_1361                       |     1|
+|14    |      \L1[19].FF         |flipflop_1362                       |     1|
+|15    |      \L1[1].FF          |flipflop_1363                       |     1|
+|16    |      \L1[20].FF         |flipflop_1364                       |     1|
+|17    |      \L1[21].FF         |flipflop_1365                       |     1|
+|18    |      \L1[22].FF         |flipflop_1366                       |     1|
+|19    |      \L1[23].FF         |flipflop_1367                       |     1|
+|20    |      \L1[24].FF         |flipflop_1368                       |     1|
+|21    |      \L1[25].FF         |flipflop_1369                       |     1|
+|22    |      \L1[26].FF         |flipflop_1370                       |     1|
+|23    |      \L1[27].FF         |flipflop_1371                       |     1|
+|24    |      \L1[28].FF         |flipflop_1372                       |     1|
+|25    |      \L1[29].FF         |flipflop_1373                       |     1|
+|26    |      \L1[2].FF          |flipflop_1374                       |     1|
+|27    |      \L1[30].FF         |flipflop_1375                       |     1|
+|28    |      \L1[31].FF         |flipflop_1376                       |     1|
+|29    |      \L1[3].FF          |flipflop_1377                       |     1|
+|30    |      \L1[4].FF          |flipflop_1378                       |     1|
+|31    |      \L1[5].FF          |flipflop_1379                       |     1|
+|32    |      \L1[6].FF          |flipflop_1380                       |     1|
+|33    |      \L1[7].FF          |flipflop_1381                       |     1|
+|34    |      \L1[8].FF          |flipflop_1382                       |     1|
+|35    |      \L1[9].FF          |flipflop_1383                       |     1|
+|36    |    A_Mux                |MUX_2                               |    33|
+|37    |    A_reg                |Register_AsyncReset_0               |    69|
+|38    |      \L1[0].FF          |flipflop_1320                       |     1|
+|39    |      \L1[10].FF         |flipflop_1321                       |     2|
+|40    |      \L1[11].FF         |flipflop_1322                       |     3|
+|41    |      \L1[12].FF         |flipflop_1323                       |     2|
+|42    |      \L1[13].FF         |flipflop_1324                       |     3|
+|43    |      \L1[14].FF         |flipflop_1325                       |     3|
+|44    |      \L1[15].FF         |flipflop_1326                       |     4|
+|45    |      \L1[16].FF         |flipflop_1327                       |     1|
+|46    |      \L1[17].FF         |flipflop_1328                       |     1|
+|47    |      \L1[18].FF         |flipflop_1329                       |     1|
+|48    |      \L1[19].FF         |flipflop_1330                       |     2|
+|49    |      \L1[1].FF          |flipflop_1331                       |     1|
+|50    |      \L1[20].FF         |flipflop_1332                       |     2|
+|51    |      \L1[21].FF         |flipflop_1333                       |     2|
+|52    |      \L1[22].FF         |flipflop_1334                       |     3|
+|53    |      \L1[23].FF         |flipflop_1335                       |     2|
+|54    |      \L1[24].FF         |flipflop_1336                       |     3|
+|55    |      \L1[25].FF         |flipflop_1337                       |     1|
+|56    |      \L1[26].FF         |flipflop_1338                       |     3|
+|57    |      \L1[27].FF         |flipflop_1339                       |     2|
+|58    |      \L1[28].FF         |flipflop_1340                       |     3|
+|59    |      \L1[29].FF         |flipflop_1341                       |     1|
+|60    |      \L1[2].FF          |flipflop_1342                       |     2|
+|61    |      \L1[30].FF         |flipflop_1343                       |     3|
+|62    |      \L1[31].FF         |flipflop_1344                       |     4|
+|63    |      \L1[3].FF          |flipflop_1345                       |     2|
+|64    |      \L1[4].FF          |flipflop_1346                       |     3|
+|65    |      \L1[5].FF          |flipflop_1347                       |     1|
+|66    |      \L1[6].FF          |flipflop_1348                       |     1|
+|67    |      \L1[7].FF          |flipflop_1349                       |     3|
+|68    |      \L1[8].FF          |flipflop_1350                       |     2|
+|69    |      \L1[9].FF          |flipflop_1351                       |     2|
+|70    |    Address_Mux          |MUX_2_1                             |    32|
+|71    |    B_Mux                |MUX_4                               |    34|
+|72    |    B_reg                |Register_AsyncReset_2               |    32|
+|73    |      \L1[0].FF          |flipflop_1288                       |     1|
+|74    |      \L1[10].FF         |flipflop_1289                       |     1|
+|75    |      \L1[11].FF         |flipflop_1290                       |     1|
+|76    |      \L1[12].FF         |flipflop_1291                       |     1|
+|77    |      \L1[13].FF         |flipflop_1292                       |     1|
+|78    |      \L1[14].FF         |flipflop_1293                       |     1|
+|79    |      \L1[15].FF         |flipflop_1294                       |     1|
+|80    |      \L1[16].FF         |flipflop_1295                       |     1|
+|81    |      \L1[17].FF         |flipflop_1296                       |     1|
+|82    |      \L1[18].FF         |flipflop_1297                       |     1|
+|83    |      \L1[19].FF         |flipflop_1298                       |     1|
+|84    |      \L1[1].FF          |flipflop_1299                       |     1|
+|85    |      \L1[20].FF         |flipflop_1300                       |     1|
+|86    |      \L1[21].FF         |flipflop_1301                       |     1|
+|87    |      \L1[22].FF         |flipflop_1302                       |     1|
+|88    |      \L1[23].FF         |flipflop_1303                       |     1|
+|89    |      \L1[24].FF         |flipflop_1304                       |     1|
+|90    |      \L1[25].FF         |flipflop_1305                       |     1|
+|91    |      \L1[26].FF         |flipflop_1306                       |     1|
+|92    |      \L1[27].FF         |flipflop_1307                       |     1|
+|93    |      \L1[28].FF         |flipflop_1308                       |     1|
+|94    |      \L1[29].FF         |flipflop_1309                       |     1|
+|95    |      \L1[2].FF          |flipflop_1310                       |     1|
+|96    |      \L1[30].FF         |flipflop_1311                       |     1|
+|97    |      \L1[31].FF         |flipflop_1312                       |     1|
+|98    |      \L1[3].FF          |flipflop_1313                       |     1|
+|99    |      \L1[4].FF          |flipflop_1314                       |     1|
+|100   |      \L1[5].FF          |flipflop_1315                       |     1|
+|101   |      \L1[6].FF          |flipflop_1316                       |     1|
+|102   |      \L1[7].FF          |flipflop_1317                       |     1|
+|103   |      \L1[8].FF          |flipflop_1318                       |     1|
+|104   |      \L1[9].FF          |flipflop_1319                       |     1|
+|105   |    CU                   |Control_Unit_CPU                    |   306|
+|106   |    HI_reg               |Register_AsyncReset_3               |    32|
+|107   |      \L1[0].FF          |flipflop_1256                       |     1|
+|108   |      \L1[10].FF         |flipflop_1257                       |     1|
+|109   |      \L1[11].FF         |flipflop_1258                       |     1|
+|110   |      \L1[12].FF         |flipflop_1259                       |     1|
+|111   |      \L1[13].FF         |flipflop_1260                       |     1|
+|112   |      \L1[14].FF         |flipflop_1261                       |     1|
+|113   |      \L1[15].FF         |flipflop_1262                       |     1|
+|114   |      \L1[16].FF         |flipflop_1263                       |     1|
+|115   |      \L1[17].FF         |flipflop_1264                       |     1|
+|116   |      \L1[18].FF         |flipflop_1265                       |     1|
+|117   |      \L1[19].FF         |flipflop_1266                       |     1|
+|118   |      \L1[1].FF          |flipflop_1267                       |     1|
+|119   |      \L1[20].FF         |flipflop_1268                       |     1|
+|120   |      \L1[21].FF         |flipflop_1269                       |     1|
+|121   |      \L1[22].FF         |flipflop_1270                       |     1|
+|122   |      \L1[23].FF         |flipflop_1271                       |     1|
+|123   |      \L1[24].FF         |flipflop_1272                       |     1|
+|124   |      \L1[25].FF         |flipflop_1273                       |     1|
+|125   |      \L1[26].FF         |flipflop_1274                       |     1|
+|126   |      \L1[27].FF         |flipflop_1275                       |     1|
+|127   |      \L1[28].FF         |flipflop_1276                       |     1|
+|128   |      \L1[29].FF         |flipflop_1277                       |     1|
+|129   |      \L1[2].FF          |flipflop_1278                       |     1|
+|130   |      \L1[30].FF         |flipflop_1279                       |     1|
+|131   |      \L1[31].FF         |flipflop_1280                       |     1|
+|132   |      \L1[3].FF          |flipflop_1281                       |     1|
+|133   |      \L1[4].FF          |flipflop_1282                       |     1|
+|134   |      \L1[5].FF          |flipflop_1283                       |     1|
+|135   |      \L1[6].FF          |flipflop_1284                       |     1|
+|136   |      \L1[7].FF          |flipflop_1285                       |     1|
+|137   |      \L1[8].FF          |flipflop_1286                       |     1|
+|138   |      \L1[9].FF          |flipflop_1287                       |     1|
+|139   |    Instruction_register |Register_AsyncReset_4               |   112|
+|140   |      \L1[0].FF          |flipflop_1224                       |     4|
+|141   |      \L1[10].FF         |flipflop_1225                       |     3|
+|142   |      \L1[11].FF         |flipflop_1226                       |     3|
+|143   |      \L1[12].FF         |flipflop_1227                       |     2|
+|144   |      \L1[13].FF         |flipflop_1228                       |     3|
+|145   |      \L1[14].FF         |flipflop_1229                       |     9|
+|146   |      \L1[15].FF         |flipflop_1230                       |     1|
+|147   |      \L1[16].FF         |flipflop_1231                       |     6|
+|148   |      \L1[17].FF         |flipflop_1232                       |    15|
+|149   |      \L1[18].FF         |flipflop_1233                       |     1|
+|150   |      \L1[19].FF         |flipflop_1234                       |     1|
+|151   |      \L1[1].FF          |flipflop_1235                       |     5|
+|152   |      \L1[20].FF         |flipflop_1236                       |     1|
+|153   |      \L1[21].FF         |flipflop_1237                       |     2|
+|154   |      \L1[22].FF         |flipflop_1238                       |     2|
+|155   |      \L1[23].FF         |flipflop_1239                       |     1|
+|156   |      \L1[24].FF         |flipflop_1240                       |     1|
+|157   |      \L1[25].FF         |flipflop_1241                       |     1|
+|158   |      \L1[26].FF         |flipflop_1242                       |     2|
+|159   |      \L1[27].FF         |flipflop_1243                       |     4|
+|160   |      \L1[28].FF         |flipflop_1244                       |     1|
+|161   |      \L1[29].FF         |flipflop_1245                       |     4|
+|162   |      \L1[2].FF          |flipflop_1246                       |     4|
+|163   |      \L1[30].FF         |flipflop_1247                       |     2|
+|164   |      \L1[31].FF         |flipflop_1248                       |     5|
+|165   |      \L1[3].FF          |flipflop_1249                       |     7|
+|166   |      \L1[4].FF          |flipflop_1250                       |     4|
+|167   |      \L1[5].FF          |flipflop_1251                       |     6|
+|168   |      \L1[6].FF          |flipflop_1252                       |     3|
+|169   |      \L1[7].FF          |flipflop_1253                       |     3|
+|170   |      \L1[8].FF          |flipflop_1254                       |     3|
+|171   |      \L1[9].FF          |flipflop_1255                       |     3|
+|172   |    LO_reg               |Register_AsyncReset_5               |    32|
+|173   |      \L1[0].FF          |flipflop_1192                       |     1|
+|174   |      \L1[10].FF         |flipflop_1193                       |     1|
+|175   |      \L1[11].FF         |flipflop_1194                       |     1|
+|176   |      \L1[12].FF         |flipflop_1195                       |     1|
+|177   |      \L1[13].FF         |flipflop_1196                       |     1|
+|178   |      \L1[14].FF         |flipflop_1197                       |     1|
+|179   |      \L1[15].FF         |flipflop_1198                       |     1|
+|180   |      \L1[16].FF         |flipflop_1199                       |     1|
+|181   |      \L1[17].FF         |flipflop_1200                       |     1|
+|182   |      \L1[18].FF         |flipflop_1201                       |     1|
+|183   |      \L1[19].FF         |flipflop_1202                       |     1|
+|184   |      \L1[1].FF          |flipflop_1203                       |     1|
+|185   |      \L1[20].FF         |flipflop_1204                       |     1|
+|186   |      \L1[21].FF         |flipflop_1205                       |     1|
+|187   |      \L1[22].FF         |flipflop_1206                       |     1|
+|188   |      \L1[23].FF         |flipflop_1207                       |     1|
+|189   |      \L1[24].FF         |flipflop_1208                       |     1|
+|190   |      \L1[25].FF         |flipflop_1209                       |     1|
+|191   |      \L1[26].FF         |flipflop_1210                       |     1|
+|192   |      \L1[27].FF         |flipflop_1211                       |     1|
+|193   |      \L1[28].FF         |flipflop_1212                       |     1|
+|194   |      \L1[29].FF         |flipflop_1213                       |     1|
+|195   |      \L1[2].FF          |flipflop_1214                       |     1|
+|196   |      \L1[30].FF         |flipflop_1215                       |     1|
+|197   |      \L1[31].FF         |flipflop_1216                       |     1|
+|198   |      \L1[3].FF          |flipflop_1217                       |     1|
+|199   |      \L1[4].FF          |flipflop_1218                       |     1|
+|200   |      \L1[5].FF          |flipflop_1219                       |     1|
+|201   |      \L1[6].FF          |flipflop_1220                       |     1|
+|202   |      \L1[7].FF          |flipflop_1221                       |     1|
+|203   |      \L1[8].FF          |flipflop_1222                       |     1|
+|204   |      \L1[9].FF          |flipflop_1223                       |     1|
+|205   |    Memory_data_reg      |Register_AsyncReset_6               |    32|
+|206   |      \L1[0].FF          |flipflop_1160                       |     1|
+|207   |      \L1[10].FF         |flipflop_1161                       |     1|
+|208   |      \L1[11].FF         |flipflop_1162                       |     1|
+|209   |      \L1[12].FF         |flipflop_1163                       |     1|
+|210   |      \L1[13].FF         |flipflop_1164                       |     1|
+|211   |      \L1[14].FF         |flipflop_1165                       |     1|
+|212   |      \L1[15].FF         |flipflop_1166                       |     1|
+|213   |      \L1[16].FF         |flipflop_1167                       |     1|
+|214   |      \L1[17].FF         |flipflop_1168                       |     1|
+|215   |      \L1[18].FF         |flipflop_1169                       |     1|
+|216   |      \L1[19].FF         |flipflop_1170                       |     1|
+|217   |      \L1[1].FF          |flipflop_1171                       |     1|
+|218   |      \L1[20].FF         |flipflop_1172                       |     1|
+|219   |      \L1[21].FF         |flipflop_1173                       |     1|
+|220   |      \L1[22].FF         |flipflop_1174                       |     1|
+|221   |      \L1[23].FF         |flipflop_1175                       |     1|
+|222   |      \L1[24].FF         |flipflop_1176                       |     1|
+|223   |      \L1[25].FF         |flipflop_1177                       |     1|
+|224   |      \L1[26].FF         |flipflop_1178                       |     1|
+|225   |      \L1[27].FF         |flipflop_1179                       |     1|
+|226   |      \L1[28].FF         |flipflop_1180                       |     1|
+|227   |      \L1[29].FF         |flipflop_1181                       |     1|
+|228   |      \L1[2].FF          |flipflop_1182                       |     1|
+|229   |      \L1[30].FF         |flipflop_1183                       |     1|
+|230   |      \L1[31].FF         |flipflop_1184                       |     1|
+|231   |      \L1[3].FF          |flipflop_1185                       |     1|
+|232   |      \L1[4].FF          |flipflop_1186                       |     1|
+|233   |      \L1[5].FF          |flipflop_1187                       |     1|
+|234   |      \L1[6].FF          |flipflop_1188                       |     1|
+|235   |      \L1[7].FF          |flipflop_1189                       |     1|
+|236   |      \L1[8].FF          |flipflop_1190                       |     1|
+|237   |      \L1[9].FF          |flipflop_1191                       |     1|
+|238   |    Mult                 |Multiplyer_unit                     |   363|
+|239   |      Accumulator        |adder                               |    16|
+|240   |      Controller         |Control_Unit                        |    78|
+|241   |      Counter_unit       |Generic_bit_counter                 |    13|
+|242   |      Multiplicand       |LSL_Resgister_AsyncReset            |   160|
+|243   |      Multiplier         |LSR_Register_AsyncReset             |    32|
+|244   |      Product            |Register_AsyncReset__parameterized2 |    64|
+|245   |        \L1[0].FF        |flipflop_1096                       |     1|
+|246   |        \L1[10].FF       |flipflop_1097                       |     1|
+|247   |        \L1[11].FF       |flipflop_1098                       |     1|
+|248   |        \L1[12].FF       |flipflop_1099                       |     1|
+|249   |        \L1[13].FF       |flipflop_1100                       |     1|
+|250   |        \L1[14].FF       |flipflop_1101                       |     1|
+|251   |        \L1[15].FF       |flipflop_1102                       |     1|
+|252   |        \L1[16].FF       |flipflop_1103                       |     1|
+|253   |        \L1[17].FF       |flipflop_1104                       |     1|
+|254   |        \L1[18].FF       |flipflop_1105                       |     1|
+|255   |        \L1[19].FF       |flipflop_1106                       |     1|
+|256   |        \L1[1].FF        |flipflop_1107                       |     1|
+|257   |        \L1[20].FF       |flipflop_1108                       |     1|
+|258   |        \L1[21].FF       |flipflop_1109                       |     1|
+|259   |        \L1[22].FF       |flipflop_1110                       |     1|
+|260   |        \L1[23].FF       |flipflop_1111                       |     1|
+|261   |        \L1[24].FF       |flipflop_1112                       |     1|
+|262   |        \L1[25].FF       |flipflop_1113                       |     1|
+|263   |        \L1[26].FF       |flipflop_1114                       |     1|
+|264   |        \L1[27].FF       |flipflop_1115                       |     1|
+|265   |        \L1[28].FF       |flipflop_1116                       |     1|
+|266   |        \L1[29].FF       |flipflop_1117                       |     1|
+|267   |        \L1[2].FF        |flipflop_1118                       |     1|
+|268   |        \L1[30].FF       |flipflop_1119                       |     1|
+|269   |        \L1[31].FF       |flipflop_1120                       |     1|
+|270   |        \L1[32].FF       |flipflop_1121                       |     1|
+|271   |        \L1[33].FF       |flipflop_1122                       |     1|
+|272   |        \L1[34].FF       |flipflop_1123                       |     1|
+|273   |        \L1[35].FF       |flipflop_1124                       |     1|
+|274   |        \L1[36].FF       |flipflop_1125                       |     1|
+|275   |        \L1[37].FF       |flipflop_1126                       |     1|
+|276   |        \L1[38].FF       |flipflop_1127                       |     1|
+|277   |        \L1[39].FF       |flipflop_1128                       |     1|
+|278   |        \L1[3].FF        |flipflop_1129                       |     1|
+|279   |        \L1[40].FF       |flipflop_1130                       |     1|
+|280   |        \L1[41].FF       |flipflop_1131                       |     1|
+|281   |        \L1[42].FF       |flipflop_1132                       |     1|
+|282   |        \L1[43].FF       |flipflop_1133                       |     1|
+|283   |        \L1[44].FF       |flipflop_1134                       |     1|
+|284   |        \L1[45].FF       |flipflop_1135                       |     1|
+|285   |        \L1[46].FF       |flipflop_1136                       |     1|
+|286   |        \L1[47].FF       |flipflop_1137                       |     1|
+|287   |        \L1[48].FF       |flipflop_1138                       |     1|
+|288   |        \L1[49].FF       |flipflop_1139                       |     1|
+|289   |        \L1[4].FF        |flipflop_1140                       |     1|
+|290   |        \L1[50].FF       |flipflop_1141                       |     1|
+|291   |        \L1[51].FF       |flipflop_1142                       |     1|
+|292   |        \L1[52].FF       |flipflop_1143                       |     1|
+|293   |        \L1[53].FF       |flipflop_1144                       |     1|
+|294   |        \L1[54].FF       |flipflop_1145                       |     1|
+|295   |        \L1[55].FF       |flipflop_1146                       |     1|
+|296   |        \L1[56].FF       |flipflop_1147                       |     1|
+|297   |        \L1[57].FF       |flipflop_1148                       |     1|
+|298   |        \L1[58].FF       |flipflop_1149                       |     1|
+|299   |        \L1[59].FF       |flipflop_1150                       |     1|
+|300   |        \L1[5].FF        |flipflop_1151                       |     1|
+|301   |        \L1[60].FF       |flipflop_1152                       |     1|
+|302   |        \L1[61].FF       |flipflop_1153                       |     1|
+|303   |        \L1[62].FF       |flipflop_1154                       |     1|
+|304   |        \L1[63].FF       |flipflop_1155                       |     1|
+|305   |        \L1[6].FF        |flipflop_1156                       |     1|
+|306   |        \L1[7].FF        |flipflop_1157                       |     1|
+|307   |        \L1[8].FF        |flipflop_1158                       |     1|
+|308   |        \L1[9].FF        |flipflop_1159                       |     1|
+|309   |    PC                   |Register_AsyncReset_7               |    40|
+|310   |      \L1[0].FF          |flipflop_1064                       |     1|
+|311   |      \L1[10].FF         |flipflop_1065                       |     1|
+|312   |      \L1[11].FF         |flipflop_1066                       |     1|
+|313   |      \L1[12].FF         |flipflop_1067                       |     1|
+|314   |      \L1[13].FF         |flipflop_1068                       |     1|
+|315   |      \L1[14].FF         |flipflop_1069                       |     1|
+|316   |      \L1[15].FF         |flipflop_1070                       |     1|
+|317   |      \L1[16].FF         |flipflop_1071                       |     1|
+|318   |      \L1[17].FF         |flipflop_1072                       |     1|
+|319   |      \L1[18].FF         |flipflop_1073                       |     1|
+|320   |      \L1[19].FF         |flipflop_1074                       |     1|
+|321   |      \L1[1].FF          |flipflop_1075                       |     1|
+|322   |      \L1[20].FF         |flipflop_1076                       |     1|
+|323   |      \L1[21].FF         |flipflop_1077                       |     1|
+|324   |      \L1[22].FF         |flipflop_1078                       |     1|
+|325   |      \L1[23].FF         |flipflop_1079                       |     1|
+|326   |      \L1[24].FF         |flipflop_1080                       |     1|
+|327   |      \L1[25].FF         |flipflop_1081                       |     1|
+|328   |      \L1[26].FF         |flipflop_1082                       |     1|
+|329   |      \L1[27].FF         |flipflop_1083                       |     1|
+|330   |      \L1[28].FF         |flipflop_1084                       |     1|
+|331   |      \L1[29].FF         |flipflop_1085                       |     1|
+|332   |      \L1[2].FF          |flipflop_1086                       |     1|
+|333   |      \L1[30].FF         |flipflop_1087                       |     1|
+|334   |      \L1[31].FF         |flipflop_1088                       |     9|
+|335   |      \L1[3].FF          |flipflop_1089                       |     1|
+|336   |      \L1[4].FF          |flipflop_1090                       |     1|
+|337   |      \L1[5].FF          |flipflop_1091                       |     1|
+|338   |      \L1[6].FF          |flipflop_1092                       |     1|
+|339   |      \L1[7].FF          |flipflop_1093                       |     1|
+|340   |      \L1[8].FF          |flipflop_1094                       |     1|
+|341   |      \L1[9].FF          |flipflop_1095                       |     1|
+|342   |    PC_Mux               |MUX_4_8                             |    32|
+|343   |    RF                   |Register_File                       |  1873|
+|344   |      \L1[0].reg         |Register_AsyncReset_9               |    32|
+|345   |        \L1[0].FF        |flipflop_1032                       |     1|
+|346   |        \L1[10].FF       |flipflop_1033                       |     1|
+|347   |        \L1[11].FF       |flipflop_1034                       |     1|
+|348   |        \L1[12].FF       |flipflop_1035                       |     1|
+|349   |        \L1[13].FF       |flipflop_1036                       |     1|
+|350   |        \L1[14].FF       |flipflop_1037                       |     1|
+|351   |        \L1[15].FF       |flipflop_1038                       |     1|
+|352   |        \L1[16].FF       |flipflop_1039                       |     1|
+|353   |        \L1[17].FF       |flipflop_1040                       |     1|
+|354   |        \L1[18].FF       |flipflop_1041                       |     1|
+|355   |        \L1[19].FF       |flipflop_1042                       |     1|
+|356   |        \L1[1].FF        |flipflop_1043                       |     1|
+|357   |        \L1[20].FF       |flipflop_1044                       |     1|
+|358   |        \L1[21].FF       |flipflop_1045                       |     1|
+|359   |        \L1[22].FF       |flipflop_1046                       |     1|
+|360   |        \L1[23].FF       |flipflop_1047                       |     1|
+|361   |        \L1[24].FF       |flipflop_1048                       |     1|
+|362   |        \L1[25].FF       |flipflop_1049                       |     1|
+|363   |        \L1[26].FF       |flipflop_1050                       |     1|
+|364   |        \L1[27].FF       |flipflop_1051                       |     1|
+|365   |        \L1[28].FF       |flipflop_1052                       |     1|
+|366   |        \L1[29].FF       |flipflop_1053                       |     1|
+|367   |        \L1[2].FF        |flipflop_1054                       |     1|
+|368   |        \L1[30].FF       |flipflop_1055                       |     1|
+|369   |        \L1[31].FF       |flipflop_1056                       |     1|
+|370   |        \L1[3].FF        |flipflop_1057                       |     1|
+|371   |        \L1[4].FF        |flipflop_1058                       |     1|
+|372   |        \L1[5].FF        |flipflop_1059                       |     1|
+|373   |        \L1[6].FF        |flipflop_1060                       |     1|
+|374   |        \L1[7].FF        |flipflop_1061                       |     1|
+|375   |        \L1[8].FF        |flipflop_1062                       |     1|
+|376   |        \L1[9].FF        |flipflop_1063                       |     1|
+|377   |      \L1[10].reg        |Register_AsyncReset_10              |    32|
+|378   |        \L1[0].FF        |flipflop_1000                       |     1|
+|379   |        \L1[10].FF       |flipflop_1001                       |     1|
+|380   |        \L1[11].FF       |flipflop_1002                       |     1|
+|381   |        \L1[12].FF       |flipflop_1003                       |     1|
+|382   |        \L1[13].FF       |flipflop_1004                       |     1|
+|383   |        \L1[14].FF       |flipflop_1005                       |     1|
+|384   |        \L1[15].FF       |flipflop_1006                       |     1|
+|385   |        \L1[16].FF       |flipflop_1007                       |     1|
+|386   |        \L1[17].FF       |flipflop_1008                       |     1|
+|387   |        \L1[18].FF       |flipflop_1009                       |     1|
+|388   |        \L1[19].FF       |flipflop_1010                       |     1|
+|389   |        \L1[1].FF        |flipflop_1011                       |     1|
+|390   |        \L1[20].FF       |flipflop_1012                       |     1|
+|391   |        \L1[21].FF       |flipflop_1013                       |     1|
+|392   |        \L1[22].FF       |flipflop_1014                       |     1|
+|393   |        \L1[23].FF       |flipflop_1015                       |     1|
+|394   |        \L1[24].FF       |flipflop_1016                       |     1|
+|395   |        \L1[25].FF       |flipflop_1017                       |     1|
+|396   |        \L1[26].FF       |flipflop_1018                       |     1|
+|397   |        \L1[27].FF       |flipflop_1019                       |     1|
+|398   |        \L1[28].FF       |flipflop_1020                       |     1|
+|399   |        \L1[29].FF       |flipflop_1021                       |     1|
+|400   |        \L1[2].FF        |flipflop_1022                       |     1|
+|401   |        \L1[30].FF       |flipflop_1023                       |     1|
+|402   |        \L1[31].FF       |flipflop_1024                       |     1|
+|403   |        \L1[3].FF        |flipflop_1025                       |     1|
+|404   |        \L1[4].FF        |flipflop_1026                       |     1|
+|405   |        \L1[5].FF        |flipflop_1027                       |     1|
+|406   |        \L1[6].FF        |flipflop_1028                       |     1|
+|407   |        \L1[7].FF        |flipflop_1029                       |     1|
+|408   |        \L1[8].FF        |flipflop_1030                       |     1|
+|409   |        \L1[9].FF        |flipflop_1031                       |     1|
+|410   |      \L1[11].reg        |Register_AsyncReset_11              |   160|
+|411   |        \L1[0].FF        |flipflop_968                        |     5|
+|412   |        \L1[10].FF       |flipflop_969                        |     5|
+|413   |        \L1[11].FF       |flipflop_970                        |     5|
+|414   |        \L1[12].FF       |flipflop_971                        |     5|
+|415   |        \L1[13].FF       |flipflop_972                        |     5|
+|416   |        \L1[14].FF       |flipflop_973                        |     5|
+|417   |        \L1[15].FF       |flipflop_974                        |     5|
+|418   |        \L1[16].FF       |flipflop_975                        |     5|
+|419   |        \L1[17].FF       |flipflop_976                        |     5|
+|420   |        \L1[18].FF       |flipflop_977                        |     5|
+|421   |        \L1[19].FF       |flipflop_978                        |     5|
+|422   |        \L1[1].FF        |flipflop_979                        |     5|
+|423   |        \L1[20].FF       |flipflop_980                        |     5|
+|424   |        \L1[21].FF       |flipflop_981                        |     5|
+|425   |        \L1[22].FF       |flipflop_982                        |     5|
+|426   |        \L1[23].FF       |flipflop_983                        |     5|
+|427   |        \L1[24].FF       |flipflop_984                        |     5|
+|428   |        \L1[25].FF       |flipflop_985                        |     5|
+|429   |        \L1[26].FF       |flipflop_986                        |     5|
+|430   |        \L1[27].FF       |flipflop_987                        |     5|
+|431   |        \L1[28].FF       |flipflop_988                        |     5|
+|432   |        \L1[29].FF       |flipflop_989                        |     5|
+|433   |        \L1[2].FF        |flipflop_990                        |     5|
+|434   |        \L1[30].FF       |flipflop_991                        |     5|
+|435   |        \L1[31].FF       |flipflop_992                        |     5|
+|436   |        \L1[3].FF        |flipflop_993                        |     5|
+|437   |        \L1[4].FF        |flipflop_994                        |     5|
+|438   |        \L1[5].FF        |flipflop_995                        |     5|
+|439   |        \L1[6].FF        |flipflop_996                        |     5|
+|440   |        \L1[7].FF        |flipflop_997                        |     5|
+|441   |        \L1[8].FF        |flipflop_998                        |     5|
+|442   |        \L1[9].FF        |flipflop_999                        |     5|
+|443   |      \L1[12].reg        |Register_AsyncReset_12              |    32|
+|444   |        \L1[0].FF        |flipflop_936                        |     1|
+|445   |        \L1[10].FF       |flipflop_937                        |     1|
+|446   |        \L1[11].FF       |flipflop_938                        |     1|
+|447   |        \L1[12].FF       |flipflop_939                        |     1|
+|448   |        \L1[13].FF       |flipflop_940                        |     1|
+|449   |        \L1[14].FF       |flipflop_941                        |     1|
+|450   |        \L1[15].FF       |flipflop_942                        |     1|
+|451   |        \L1[16].FF       |flipflop_943                        |     1|
+|452   |        \L1[17].FF       |flipflop_944                        |     1|
+|453   |        \L1[18].FF       |flipflop_945                        |     1|
+|454   |        \L1[19].FF       |flipflop_946                        |     1|
+|455   |        \L1[1].FF        |flipflop_947                        |     1|
+|456   |        \L1[20].FF       |flipflop_948                        |     1|
+|457   |        \L1[21].FF       |flipflop_949                        |     1|
+|458   |        \L1[22].FF       |flipflop_950                        |     1|
+|459   |        \L1[23].FF       |flipflop_951                        |     1|
+|460   |        \L1[24].FF       |flipflop_952                        |     1|
+|461   |        \L1[25].FF       |flipflop_953                        |     1|
+|462   |        \L1[26].FF       |flipflop_954                        |     1|
+|463   |        \L1[27].FF       |flipflop_955                        |     1|
+|464   |        \L1[28].FF       |flipflop_956                        |     1|
+|465   |        \L1[29].FF       |flipflop_957                        |     1|
+|466   |        \L1[2].FF        |flipflop_958                        |     1|
+|467   |        \L1[30].FF       |flipflop_959                        |     1|
+|468   |        \L1[31].FF       |flipflop_960                        |     1|
+|469   |        \L1[3].FF        |flipflop_961                        |     1|
+|470   |        \L1[4].FF        |flipflop_962                        |     1|
+|471   |        \L1[5].FF        |flipflop_963                        |     1|
+|472   |        \L1[6].FF        |flipflop_964                        |     1|
+|473   |        \L1[7].FF        |flipflop_965                        |     1|
+|474   |        \L1[8].FF        |flipflop_966                        |     1|
+|475   |        \L1[9].FF        |flipflop_967                        |     1|
+|476   |      \L1[13].reg        |Register_AsyncReset_13              |    32|
+|477   |        \L1[0].FF        |flipflop_904                        |     1|
+|478   |        \L1[10].FF       |flipflop_905                        |     1|
+|479   |        \L1[11].FF       |flipflop_906                        |     1|
+|480   |        \L1[12].FF       |flipflop_907                        |     1|
+|481   |        \L1[13].FF       |flipflop_908                        |     1|
+|482   |        \L1[14].FF       |flipflop_909                        |     1|
+|483   |        \L1[15].FF       |flipflop_910                        |     1|
+|484   |        \L1[16].FF       |flipflop_911                        |     1|
+|485   |        \L1[17].FF       |flipflop_912                        |     1|
+|486   |        \L1[18].FF       |flipflop_913                        |     1|
+|487   |        \L1[19].FF       |flipflop_914                        |     1|
+|488   |        \L1[1].FF        |flipflop_915                        |     1|
+|489   |        \L1[20].FF       |flipflop_916                        |     1|
+|490   |        \L1[21].FF       |flipflop_917                        |     1|
+|491   |        \L1[22].FF       |flipflop_918                        |     1|
+|492   |        \L1[23].FF       |flipflop_919                        |     1|
+|493   |        \L1[24].FF       |flipflop_920                        |     1|
+|494   |        \L1[25].FF       |flipflop_921                        |     1|
+|495   |        \L1[26].FF       |flipflop_922                        |     1|
+|496   |        \L1[27].FF       |flipflop_923                        |     1|
+|497   |        \L1[28].FF       |flipflop_924                        |     1|
+|498   |        \L1[29].FF       |flipflop_925                        |     1|
+|499   |        \L1[2].FF        |flipflop_926                        |     1|
+|500   |        \L1[30].FF       |flipflop_927                        |     1|
+|501   |        \L1[31].FF       |flipflop_928                        |     1|
+|502   |        \L1[3].FF        |flipflop_929                        |     1|
+|503   |        \L1[4].FF        |flipflop_930                        |     1|
+|504   |        \L1[5].FF        |flipflop_931                        |     1|
+|505   |        \L1[6].FF        |flipflop_932                        |     1|
+|506   |        \L1[7].FF        |flipflop_933                        |     1|
+|507   |        \L1[8].FF        |flipflop_934                        |     1|
+|508   |        \L1[9].FF        |flipflop_935                        |     1|
+|509   |      \L1[14].reg        |Register_AsyncReset_14              |    32|
+|510   |        \L1[0].FF        |flipflop_872                        |     1|
+|511   |        \L1[10].FF       |flipflop_873                        |     1|
+|512   |        \L1[11].FF       |flipflop_874                        |     1|
+|513   |        \L1[12].FF       |flipflop_875                        |     1|
+|514   |        \L1[13].FF       |flipflop_876                        |     1|
+|515   |        \L1[14].FF       |flipflop_877                        |     1|
+|516   |        \L1[15].FF       |flipflop_878                        |     1|
+|517   |        \L1[16].FF       |flipflop_879                        |     1|
+|518   |        \L1[17].FF       |flipflop_880                        |     1|
+|519   |        \L1[18].FF       |flipflop_881                        |     1|
+|520   |        \L1[19].FF       |flipflop_882                        |     1|
+|521   |        \L1[1].FF        |flipflop_883                        |     1|
+|522   |        \L1[20].FF       |flipflop_884                        |     1|
+|523   |        \L1[21].FF       |flipflop_885                        |     1|
+|524   |        \L1[22].FF       |flipflop_886                        |     1|
+|525   |        \L1[23].FF       |flipflop_887                        |     1|
+|526   |        \L1[24].FF       |flipflop_888                        |     1|
+|527   |        \L1[25].FF       |flipflop_889                        |     1|
+|528   |        \L1[26].FF       |flipflop_890                        |     1|
+|529   |        \L1[27].FF       |flipflop_891                        |     1|
+|530   |        \L1[28].FF       |flipflop_892                        |     1|
+|531   |        \L1[29].FF       |flipflop_893                        |     1|
+|532   |        \L1[2].FF        |flipflop_894                        |     1|
+|533   |        \L1[30].FF       |flipflop_895                        |     1|
+|534   |        \L1[31].FF       |flipflop_896                        |     1|
+|535   |        \L1[3].FF        |flipflop_897                        |     1|
+|536   |        \L1[4].FF        |flipflop_898                        |     1|
+|537   |        \L1[5].FF        |flipflop_899                        |     1|
+|538   |        \L1[6].FF        |flipflop_900                        |     1|
+|539   |        \L1[7].FF        |flipflop_901                        |     1|
+|540   |        \L1[8].FF        |flipflop_902                        |     1|
+|541   |        \L1[9].FF        |flipflop_903                        |     1|
+|542   |      \L1[15].reg        |Register_AsyncReset_15              |    96|
+|543   |        \L1[0].FF        |flipflop_840                        |     3|
+|544   |        \L1[10].FF       |flipflop_841                        |     3|
+|545   |        \L1[11].FF       |flipflop_842                        |     3|
+|546   |        \L1[12].FF       |flipflop_843                        |     3|
+|547   |        \L1[13].FF       |flipflop_844                        |     3|
+|548   |        \L1[14].FF       |flipflop_845                        |     3|
+|549   |        \L1[15].FF       |flipflop_846                        |     3|
+|550   |        \L1[16].FF       |flipflop_847                        |     3|
+|551   |        \L1[17].FF       |flipflop_848                        |     3|
+|552   |        \L1[18].FF       |flipflop_849                        |     3|
+|553   |        \L1[19].FF       |flipflop_850                        |     3|
+|554   |        \L1[1].FF        |flipflop_851                        |     3|
+|555   |        \L1[20].FF       |flipflop_852                        |     3|
+|556   |        \L1[21].FF       |flipflop_853                        |     3|
+|557   |        \L1[22].FF       |flipflop_854                        |     3|
+|558   |        \L1[23].FF       |flipflop_855                        |     3|
+|559   |        \L1[24].FF       |flipflop_856                        |     3|
+|560   |        \L1[25].FF       |flipflop_857                        |     3|
+|561   |        \L1[26].FF       |flipflop_858                        |     3|
+|562   |        \L1[27].FF       |flipflop_859                        |     3|
+|563   |        \L1[28].FF       |flipflop_860                        |     3|
+|564   |        \L1[29].FF       |flipflop_861                        |     3|
+|565   |        \L1[2].FF        |flipflop_862                        |     3|
+|566   |        \L1[30].FF       |flipflop_863                        |     3|
+|567   |        \L1[31].FF       |flipflop_864                        |     3|
+|568   |        \L1[3].FF        |flipflop_865                        |     3|
+|569   |        \L1[4].FF        |flipflop_866                        |     3|
+|570   |        \L1[5].FF        |flipflop_867                        |     3|
+|571   |        \L1[6].FF        |flipflop_868                        |     3|
+|572   |        \L1[7].FF        |flipflop_869                        |     3|
+|573   |        \L1[8].FF        |flipflop_870                        |     3|
+|574   |        \L1[9].FF        |flipflop_871                        |     3|
+|575   |      \L1[16].reg        |Register_AsyncReset_16              |    32|
+|576   |        \L1[0].FF        |flipflop_808                        |     1|
+|577   |        \L1[10].FF       |flipflop_809                        |     1|
+|578   |        \L1[11].FF       |flipflop_810                        |     1|
+|579   |        \L1[12].FF       |flipflop_811                        |     1|
+|580   |        \L1[13].FF       |flipflop_812                        |     1|
+|581   |        \L1[14].FF       |flipflop_813                        |     1|
+|582   |        \L1[15].FF       |flipflop_814                        |     1|
+|583   |        \L1[16].FF       |flipflop_815                        |     1|
+|584   |        \L1[17].FF       |flipflop_816                        |     1|
+|585   |        \L1[18].FF       |flipflop_817                        |     1|
+|586   |        \L1[19].FF       |flipflop_818                        |     1|
+|587   |        \L1[1].FF        |flipflop_819                        |     1|
+|588   |        \L1[20].FF       |flipflop_820                        |     1|
+|589   |        \L1[21].FF       |flipflop_821                        |     1|
+|590   |        \L1[22].FF       |flipflop_822                        |     1|
+|591   |        \L1[23].FF       |flipflop_823                        |     1|
+|592   |        \L1[24].FF       |flipflop_824                        |     1|
+|593   |        \L1[25].FF       |flipflop_825                        |     1|
+|594   |        \L1[26].FF       |flipflop_826                        |     1|
+|595   |        \L1[27].FF       |flipflop_827                        |     1|
+|596   |        \L1[28].FF       |flipflop_828                        |     1|
+|597   |        \L1[29].FF       |flipflop_829                        |     1|
+|598   |        \L1[2].FF        |flipflop_830                        |     1|
+|599   |        \L1[30].FF       |flipflop_831                        |     1|
+|600   |        \L1[31].FF       |flipflop_832                        |     1|
+|601   |        \L1[3].FF        |flipflop_833                        |     1|
+|602   |        \L1[4].FF        |flipflop_834                        |     1|
+|603   |        \L1[5].FF        |flipflop_835                        |     1|
+|604   |        \L1[6].FF        |flipflop_836                        |     1|
+|605   |        \L1[7].FF        |flipflop_837                        |     1|
+|606   |        \L1[8].FF        |flipflop_838                        |     1|
+|607   |        \L1[9].FF        |flipflop_839                        |     1|
+|608   |      \L1[17].reg        |Register_AsyncReset_17              |    32|
+|609   |        \L1[0].FF        |flipflop_776                        |     1|
+|610   |        \L1[10].FF       |flipflop_777                        |     1|
+|611   |        \L1[11].FF       |flipflop_778                        |     1|
+|612   |        \L1[12].FF       |flipflop_779                        |     1|
+|613   |        \L1[13].FF       |flipflop_780                        |     1|
+|614   |        \L1[14].FF       |flipflop_781                        |     1|
+|615   |        \L1[15].FF       |flipflop_782                        |     1|
+|616   |        \L1[16].FF       |flipflop_783                        |     1|
+|617   |        \L1[17].FF       |flipflop_784                        |     1|
+|618   |        \L1[18].FF       |flipflop_785                        |     1|
+|619   |        \L1[19].FF       |flipflop_786                        |     1|
+|620   |        \L1[1].FF        |flipflop_787                        |     1|
+|621   |        \L1[20].FF       |flipflop_788                        |     1|
+|622   |        \L1[21].FF       |flipflop_789                        |     1|
+|623   |        \L1[22].FF       |flipflop_790                        |     1|
+|624   |        \L1[23].FF       |flipflop_791                        |     1|
+|625   |        \L1[24].FF       |flipflop_792                        |     1|
+|626   |        \L1[25].FF       |flipflop_793                        |     1|
+|627   |        \L1[26].FF       |flipflop_794                        |     1|
+|628   |        \L1[27].FF       |flipflop_795                        |     1|
+|629   |        \L1[28].FF       |flipflop_796                        |     1|
+|630   |        \L1[29].FF       |flipflop_797                        |     1|
+|631   |        \L1[2].FF        |flipflop_798                        |     1|
+|632   |        \L1[30].FF       |flipflop_799                        |     1|
+|633   |        \L1[31].FF       |flipflop_800                        |     1|
+|634   |        \L1[3].FF        |flipflop_801                        |     1|
+|635   |        \L1[4].FF        |flipflop_802                        |     1|
+|636   |        \L1[5].FF        |flipflop_803                        |     1|
+|637   |        \L1[6].FF        |flipflop_804                        |     1|
+|638   |        \L1[7].FF        |flipflop_805                        |     1|
+|639   |        \L1[8].FF        |flipflop_806                        |     1|
+|640   |        \L1[9].FF        |flipflop_807                        |     1|
+|641   |      \L1[18].reg        |Register_AsyncReset_18              |    32|
+|642   |        \L1[0].FF        |flipflop_744                        |     1|
+|643   |        \L1[10].FF       |flipflop_745                        |     1|
+|644   |        \L1[11].FF       |flipflop_746                        |     1|
+|645   |        \L1[12].FF       |flipflop_747                        |     1|
+|646   |        \L1[13].FF       |flipflop_748                        |     1|
+|647   |        \L1[14].FF       |flipflop_749                        |     1|
+|648   |        \L1[15].FF       |flipflop_750                        |     1|
+|649   |        \L1[16].FF       |flipflop_751                        |     1|
+|650   |        \L1[17].FF       |flipflop_752                        |     1|
+|651   |        \L1[18].FF       |flipflop_753                        |     1|
+|652   |        \L1[19].FF       |flipflop_754                        |     1|
+|653   |        \L1[1].FF        |flipflop_755                        |     1|
+|654   |        \L1[20].FF       |flipflop_756                        |     1|
+|655   |        \L1[21].FF       |flipflop_757                        |     1|
+|656   |        \L1[22].FF       |flipflop_758                        |     1|
+|657   |        \L1[23].FF       |flipflop_759                        |     1|
+|658   |        \L1[24].FF       |flipflop_760                        |     1|
+|659   |        \L1[25].FF       |flipflop_761                        |     1|
+|660   |        \L1[26].FF       |flipflop_762                        |     1|
+|661   |        \L1[27].FF       |flipflop_763                        |     1|
+|662   |        \L1[28].FF       |flipflop_764                        |     1|
+|663   |        \L1[29].FF       |flipflop_765                        |     1|
+|664   |        \L1[2].FF        |flipflop_766                        |     1|
+|665   |        \L1[30].FF       |flipflop_767                        |     1|
+|666   |        \L1[31].FF       |flipflop_768                        |     1|
+|667   |        \L1[3].FF        |flipflop_769                        |     1|
+|668   |        \L1[4].FF        |flipflop_770                        |     1|
+|669   |        \L1[5].FF        |flipflop_771                        |     1|
+|670   |        \L1[6].FF        |flipflop_772                        |     1|
+|671   |        \L1[7].FF        |flipflop_773                        |     1|
+|672   |        \L1[8].FF        |flipflop_774                        |     1|
+|673   |        \L1[9].FF        |flipflop_775                        |     1|
+|674   |      \L1[19].reg        |Register_AsyncReset_19              |   160|
+|675   |        \L1[0].FF        |flipflop_712                        |     5|
+|676   |        \L1[10].FF       |flipflop_713                        |     5|
+|677   |        \L1[11].FF       |flipflop_714                        |     5|
+|678   |        \L1[12].FF       |flipflop_715                        |     5|
+|679   |        \L1[13].FF       |flipflop_716                        |     5|
+|680   |        \L1[14].FF       |flipflop_717                        |     5|
+|681   |        \L1[15].FF       |flipflop_718                        |     5|
+|682   |        \L1[16].FF       |flipflop_719                        |     5|
+|683   |        \L1[17].FF       |flipflop_720                        |     5|
+|684   |        \L1[18].FF       |flipflop_721                        |     5|
+|685   |        \L1[19].FF       |flipflop_722                        |     5|
+|686   |        \L1[1].FF        |flipflop_723                        |     5|
+|687   |        \L1[20].FF       |flipflop_724                        |     5|
+|688   |        \L1[21].FF       |flipflop_725                        |     5|
+|689   |        \L1[22].FF       |flipflop_726                        |     5|
+|690   |        \L1[23].FF       |flipflop_727                        |     5|
+|691   |        \L1[24].FF       |flipflop_728                        |     5|
+|692   |        \L1[25].FF       |flipflop_729                        |     5|
+|693   |        \L1[26].FF       |flipflop_730                        |     5|
+|694   |        \L1[27].FF       |flipflop_731                        |     5|
+|695   |        \L1[28].FF       |flipflop_732                        |     5|
+|696   |        \L1[29].FF       |flipflop_733                        |     5|
+|697   |        \L1[2].FF        |flipflop_734                        |     5|
+|698   |        \L1[30].FF       |flipflop_735                        |     5|
+|699   |        \L1[31].FF       |flipflop_736                        |     5|
+|700   |        \L1[3].FF        |flipflop_737                        |     5|
+|701   |        \L1[4].FF        |flipflop_738                        |     5|
+|702   |        \L1[5].FF        |flipflop_739                        |     5|
+|703   |        \L1[6].FF        |flipflop_740                        |     5|
+|704   |        \L1[7].FF        |flipflop_741                        |     5|
+|705   |        \L1[8].FF        |flipflop_742                        |     5|
+|706   |        \L1[9].FF        |flipflop_743                        |     5|
+|707   |      \L1[1].reg         |Register_AsyncReset_20              |    32|
+|708   |        \L1[0].FF        |flipflop_680                        |     1|
+|709   |        \L1[10].FF       |flipflop_681                        |     1|
+|710   |        \L1[11].FF       |flipflop_682                        |     1|
+|711   |        \L1[12].FF       |flipflop_683                        |     1|
+|712   |        \L1[13].FF       |flipflop_684                        |     1|
+|713   |        \L1[14].FF       |flipflop_685                        |     1|
+|714   |        \L1[15].FF       |flipflop_686                        |     1|
+|715   |        \L1[16].FF       |flipflop_687                        |     1|
+|716   |        \L1[17].FF       |flipflop_688                        |     1|
+|717   |        \L1[18].FF       |flipflop_689                        |     1|
+|718   |        \L1[19].FF       |flipflop_690                        |     1|
+|719   |        \L1[1].FF        |flipflop_691                        |     1|
+|720   |        \L1[20].FF       |flipflop_692                        |     1|
+|721   |        \L1[21].FF       |flipflop_693                        |     1|
+|722   |        \L1[22].FF       |flipflop_694                        |     1|
+|723   |        \L1[23].FF       |flipflop_695                        |     1|
+|724   |        \L1[24].FF       |flipflop_696                        |     1|
+|725   |        \L1[25].FF       |flipflop_697                        |     1|
+|726   |        \L1[26].FF       |flipflop_698                        |     1|
+|727   |        \L1[27].FF       |flipflop_699                        |     1|
+|728   |        \L1[28].FF       |flipflop_700                        |     1|
+|729   |        \L1[29].FF       |flipflop_701                        |     1|
+|730   |        \L1[2].FF        |flipflop_702                        |     1|
+|731   |        \L1[30].FF       |flipflop_703                        |     1|
+|732   |        \L1[31].FF       |flipflop_704                        |     1|
+|733   |        \L1[3].FF        |flipflop_705                        |     1|
+|734   |        \L1[4].FF        |flipflop_706                        |     1|
+|735   |        \L1[5].FF        |flipflop_707                        |     1|
+|736   |        \L1[6].FF        |flipflop_708                        |     1|
+|737   |        \L1[7].FF        |flipflop_709                        |     1|
+|738   |        \L1[8].FF        |flipflop_710                        |     1|
+|739   |        \L1[9].FF        |flipflop_711                        |     1|
+|740   |      \L1[20].reg        |Register_AsyncReset_21              |    32|
+|741   |        \L1[0].FF        |flipflop_648                        |     1|
+|742   |        \L1[10].FF       |flipflop_649                        |     1|
+|743   |        \L1[11].FF       |flipflop_650                        |     1|
+|744   |        \L1[12].FF       |flipflop_651                        |     1|
+|745   |        \L1[13].FF       |flipflop_652                        |     1|
+|746   |        \L1[14].FF       |flipflop_653                        |     1|
+|747   |        \L1[15].FF       |flipflop_654                        |     1|
+|748   |        \L1[16].FF       |flipflop_655                        |     1|
+|749   |        \L1[17].FF       |flipflop_656                        |     1|
+|750   |        \L1[18].FF       |flipflop_657                        |     1|
+|751   |        \L1[19].FF       |flipflop_658                        |     1|
+|752   |        \L1[1].FF        |flipflop_659                        |     1|
+|753   |        \L1[20].FF       |flipflop_660                        |     1|
+|754   |        \L1[21].FF       |flipflop_661                        |     1|
+|755   |        \L1[22].FF       |flipflop_662                        |     1|
+|756   |        \L1[23].FF       |flipflop_663                        |     1|
+|757   |        \L1[24].FF       |flipflop_664                        |     1|
+|758   |        \L1[25].FF       |flipflop_665                        |     1|
+|759   |        \L1[26].FF       |flipflop_666                        |     1|
+|760   |        \L1[27].FF       |flipflop_667                        |     1|
+|761   |        \L1[28].FF       |flipflop_668                        |     1|
+|762   |        \L1[29].FF       |flipflop_669                        |     1|
+|763   |        \L1[2].FF        |flipflop_670                        |     1|
+|764   |        \L1[30].FF       |flipflop_671                        |     1|
+|765   |        \L1[31].FF       |flipflop_672                        |     1|
+|766   |        \L1[3].FF        |flipflop_673                        |     1|
+|767   |        \L1[4].FF        |flipflop_674                        |     1|
+|768   |        \L1[5].FF        |flipflop_675                        |     1|
+|769   |        \L1[6].FF        |flipflop_676                        |     1|
+|770   |        \L1[7].FF        |flipflop_677                        |     1|
+|771   |        \L1[8].FF        |flipflop_678                        |     1|
+|772   |        \L1[9].FF        |flipflop_679                        |     1|
+|773   |      \L1[21].reg        |Register_AsyncReset_22              |    32|
+|774   |        \L1[0].FF        |flipflop_616                        |     1|
+|775   |        \L1[10].FF       |flipflop_617                        |     1|
+|776   |        \L1[11].FF       |flipflop_618                        |     1|
+|777   |        \L1[12].FF       |flipflop_619                        |     1|
+|778   |        \L1[13].FF       |flipflop_620                        |     1|
+|779   |        \L1[14].FF       |flipflop_621                        |     1|
+|780   |        \L1[15].FF       |flipflop_622                        |     1|
+|781   |        \L1[16].FF       |flipflop_623                        |     1|
+|782   |        \L1[17].FF       |flipflop_624                        |     1|
+|783   |        \L1[18].FF       |flipflop_625                        |     1|
+|784   |        \L1[19].FF       |flipflop_626                        |     1|
+|785   |        \L1[1].FF        |flipflop_627                        |     1|
+|786   |        \L1[20].FF       |flipflop_628                        |     1|
+|787   |        \L1[21].FF       |flipflop_629                        |     1|
+|788   |        \L1[22].FF       |flipflop_630                        |     1|
+|789   |        \L1[23].FF       |flipflop_631                        |     1|
+|790   |        \L1[24].FF       |flipflop_632                        |     1|
+|791   |        \L1[25].FF       |flipflop_633                        |     1|
+|792   |        \L1[26].FF       |flipflop_634                        |     1|
+|793   |        \L1[27].FF       |flipflop_635                        |     1|
+|794   |        \L1[28].FF       |flipflop_636                        |     1|
+|795   |        \L1[29].FF       |flipflop_637                        |     1|
+|796   |        \L1[2].FF        |flipflop_638                        |     1|
+|797   |        \L1[30].FF       |flipflop_639                        |     1|
+|798   |        \L1[31].FF       |flipflop_640                        |     1|
+|799   |        \L1[3].FF        |flipflop_641                        |     1|
+|800   |        \L1[4].FF        |flipflop_642                        |     1|
+|801   |        \L1[5].FF        |flipflop_643                        |     1|
+|802   |        \L1[6].FF        |flipflop_644                        |     1|
+|803   |        \L1[7].FF        |flipflop_645                        |     1|
+|804   |        \L1[8].FF        |flipflop_646                        |     1|
+|805   |        \L1[9].FF        |flipflop_647                        |     1|
+|806   |      \L1[22].reg        |Register_AsyncReset_23              |    32|
+|807   |        \L1[0].FF        |flipflop_584                        |     1|
+|808   |        \L1[10].FF       |flipflop_585                        |     1|
+|809   |        \L1[11].FF       |flipflop_586                        |     1|
+|810   |        \L1[12].FF       |flipflop_587                        |     1|
+|811   |        \L1[13].FF       |flipflop_588                        |     1|
+|812   |        \L1[14].FF       |flipflop_589                        |     1|
+|813   |        \L1[15].FF       |flipflop_590                        |     1|
+|814   |        \L1[16].FF       |flipflop_591                        |     1|
+|815   |        \L1[17].FF       |flipflop_592                        |     1|
+|816   |        \L1[18].FF       |flipflop_593                        |     1|
+|817   |        \L1[19].FF       |flipflop_594                        |     1|
+|818   |        \L1[1].FF        |flipflop_595                        |     1|
+|819   |        \L1[20].FF       |flipflop_596                        |     1|
+|820   |        \L1[21].FF       |flipflop_597                        |     1|
+|821   |        \L1[22].FF       |flipflop_598                        |     1|
+|822   |        \L1[23].FF       |flipflop_599                        |     1|
+|823   |        \L1[24].FF       |flipflop_600                        |     1|
+|824   |        \L1[25].FF       |flipflop_601                        |     1|
+|825   |        \L1[26].FF       |flipflop_602                        |     1|
+|826   |        \L1[27].FF       |flipflop_603                        |     1|
+|827   |        \L1[28].FF       |flipflop_604                        |     1|
+|828   |        \L1[29].FF       |flipflop_605                        |     1|
+|829   |        \L1[2].FF        |flipflop_606                        |     1|
+|830   |        \L1[30].FF       |flipflop_607                        |     1|
+|831   |        \L1[31].FF       |flipflop_608                        |     1|
+|832   |        \L1[3].FF        |flipflop_609                        |     1|
+|833   |        \L1[4].FF        |flipflop_610                        |     1|
+|834   |        \L1[5].FF        |flipflop_611                        |     1|
+|835   |        \L1[6].FF        |flipflop_612                        |     1|
+|836   |        \L1[7].FF        |flipflop_613                        |     1|
+|837   |        \L1[8].FF        |flipflop_614                        |     1|
+|838   |        \L1[9].FF        |flipflop_615                        |     1|
+|839   |      \L1[23].reg        |Register_AsyncReset_24              |    96|
+|840   |        \L1[0].FF        |flipflop_552                        |     3|
+|841   |        \L1[10].FF       |flipflop_553                        |     3|
+|842   |        \L1[11].FF       |flipflop_554                        |     3|
+|843   |        \L1[12].FF       |flipflop_555                        |     3|
+|844   |        \L1[13].FF       |flipflop_556                        |     3|
+|845   |        \L1[14].FF       |flipflop_557                        |     3|
+|846   |        \L1[15].FF       |flipflop_558                        |     3|
+|847   |        \L1[16].FF       |flipflop_559                        |     3|
+|848   |        \L1[17].FF       |flipflop_560                        |     3|
+|849   |        \L1[18].FF       |flipflop_561                        |     3|
+|850   |        \L1[19].FF       |flipflop_562                        |     3|
+|851   |        \L1[1].FF        |flipflop_563                        |     3|
+|852   |        \L1[20].FF       |flipflop_564                        |     3|
+|853   |        \L1[21].FF       |flipflop_565                        |     3|
+|854   |        \L1[22].FF       |flipflop_566                        |     3|
+|855   |        \L1[23].FF       |flipflop_567                        |     3|
+|856   |        \L1[24].FF       |flipflop_568                        |     3|
+|857   |        \L1[25].FF       |flipflop_569                        |     3|
+|858   |        \L1[26].FF       |flipflop_570                        |     3|
+|859   |        \L1[27].FF       |flipflop_571                        |     3|
+|860   |        \L1[28].FF       |flipflop_572                        |     3|
+|861   |        \L1[29].FF       |flipflop_573                        |     3|
+|862   |        \L1[2].FF        |flipflop_574                        |     3|
+|863   |        \L1[30].FF       |flipflop_575                        |     3|
+|864   |        \L1[31].FF       |flipflop_576                        |     3|
+|865   |        \L1[3].FF        |flipflop_577                        |     3|
+|866   |        \L1[4].FF        |flipflop_578                        |     3|
+|867   |        \L1[5].FF        |flipflop_579                        |     3|
+|868   |        \L1[6].FF        |flipflop_580                        |     3|
+|869   |        \L1[7].FF        |flipflop_581                        |     3|
+|870   |        \L1[8].FF        |flipflop_582                        |     3|
+|871   |        \L1[9].FF        |flipflop_583                        |     3|
+|872   |      \L1[24].reg        |Register_AsyncReset_25              |    32|
+|873   |        \L1[0].FF        |flipflop_520                        |     1|
+|874   |        \L1[10].FF       |flipflop_521                        |     1|
+|875   |        \L1[11].FF       |flipflop_522                        |     1|
+|876   |        \L1[12].FF       |flipflop_523                        |     1|
+|877   |        \L1[13].FF       |flipflop_524                        |     1|
+|878   |        \L1[14].FF       |flipflop_525                        |     1|
+|879   |        \L1[15].FF       |flipflop_526                        |     1|
+|880   |        \L1[16].FF       |flipflop_527                        |     1|
+|881   |        \L1[17].FF       |flipflop_528                        |     1|
+|882   |        \L1[18].FF       |flipflop_529                        |     1|
+|883   |        \L1[19].FF       |flipflop_530                        |     1|
+|884   |        \L1[1].FF        |flipflop_531                        |     1|
+|885   |        \L1[20].FF       |flipflop_532                        |     1|
+|886   |        \L1[21].FF       |flipflop_533                        |     1|
+|887   |        \L1[22].FF       |flipflop_534                        |     1|
+|888   |        \L1[23].FF       |flipflop_535                        |     1|
+|889   |        \L1[24].FF       |flipflop_536                        |     1|
+|890   |        \L1[25].FF       |flipflop_537                        |     1|
+|891   |        \L1[26].FF       |flipflop_538                        |     1|
+|892   |        \L1[27].FF       |flipflop_539                        |     1|
+|893   |        \L1[28].FF       |flipflop_540                        |     1|
+|894   |        \L1[29].FF       |flipflop_541                        |     1|
+|895   |        \L1[2].FF        |flipflop_542                        |     1|
+|896   |        \L1[30].FF       |flipflop_543                        |     1|
+|897   |        \L1[31].FF       |flipflop_544                        |     1|
+|898   |        \L1[3].FF        |flipflop_545                        |     1|
+|899   |        \L1[4].FF        |flipflop_546                        |     1|
+|900   |        \L1[5].FF        |flipflop_547                        |     1|
+|901   |        \L1[6].FF        |flipflop_548                        |     1|
+|902   |        \L1[7].FF        |flipflop_549                        |     1|
+|903   |        \L1[8].FF        |flipflop_550                        |     1|
+|904   |        \L1[9].FF        |flipflop_551                        |     1|
+|905   |      \L1[25].reg        |Register_AsyncReset_26              |    32|
+|906   |        \L1[0].FF        |flipflop_488                        |     1|
+|907   |        \L1[10].FF       |flipflop_489                        |     1|
+|908   |        \L1[11].FF       |flipflop_490                        |     1|
+|909   |        \L1[12].FF       |flipflop_491                        |     1|
+|910   |        \L1[13].FF       |flipflop_492                        |     1|
+|911   |        \L1[14].FF       |flipflop_493                        |     1|
+|912   |        \L1[15].FF       |flipflop_494                        |     1|
+|913   |        \L1[16].FF       |flipflop_495                        |     1|
+|914   |        \L1[17].FF       |flipflop_496                        |     1|
+|915   |        \L1[18].FF       |flipflop_497                        |     1|
+|916   |        \L1[19].FF       |flipflop_498                        |     1|
+|917   |        \L1[1].FF        |flipflop_499                        |     1|
+|918   |        \L1[20].FF       |flipflop_500                        |     1|
+|919   |        \L1[21].FF       |flipflop_501                        |     1|
+|920   |        \L1[22].FF       |flipflop_502                        |     1|
+|921   |        \L1[23].FF       |flipflop_503                        |     1|
+|922   |        \L1[24].FF       |flipflop_504                        |     1|
+|923   |        \L1[25].FF       |flipflop_505                        |     1|
+|924   |        \L1[26].FF       |flipflop_506                        |     1|
+|925   |        \L1[27].FF       |flipflop_507                        |     1|
+|926   |        \L1[28].FF       |flipflop_508                        |     1|
+|927   |        \L1[29].FF       |flipflop_509                        |     1|
+|928   |        \L1[2].FF        |flipflop_510                        |     1|
+|929   |        \L1[30].FF       |flipflop_511                        |     1|
+|930   |        \L1[31].FF       |flipflop_512                        |     1|
+|931   |        \L1[3].FF        |flipflop_513                        |     1|
+|932   |        \L1[4].FF        |flipflop_514                        |     1|
+|933   |        \L1[5].FF        |flipflop_515                        |     1|
+|934   |        \L1[6].FF        |flipflop_516                        |     1|
+|935   |        \L1[7].FF        |flipflop_517                        |     1|
+|936   |        \L1[8].FF        |flipflop_518                        |     1|
+|937   |        \L1[9].FF        |flipflop_519                        |     1|
+|938   |      \L1[26].reg        |Register_AsyncReset_27              |    32|
+|939   |        \L1[0].FF        |flipflop_456                        |     1|
+|940   |        \L1[10].FF       |flipflop_457                        |     1|
+|941   |        \L1[11].FF       |flipflop_458                        |     1|
+|942   |        \L1[12].FF       |flipflop_459                        |     1|
+|943   |        \L1[13].FF       |flipflop_460                        |     1|
+|944   |        \L1[14].FF       |flipflop_461                        |     1|
+|945   |        \L1[15].FF       |flipflop_462                        |     1|
+|946   |        \L1[16].FF       |flipflop_463                        |     1|
+|947   |        \L1[17].FF       |flipflop_464                        |     1|
+|948   |        \L1[18].FF       |flipflop_465                        |     1|
+|949   |        \L1[19].FF       |flipflop_466                        |     1|
+|950   |        \L1[1].FF        |flipflop_467                        |     1|
+|951   |        \L1[20].FF       |flipflop_468                        |     1|
+|952   |        \L1[21].FF       |flipflop_469                        |     1|
+|953   |        \L1[22].FF       |flipflop_470                        |     1|
+|954   |        \L1[23].FF       |flipflop_471                        |     1|
+|955   |        \L1[24].FF       |flipflop_472                        |     1|
+|956   |        \L1[25].FF       |flipflop_473                        |     1|
+|957   |        \L1[26].FF       |flipflop_474                        |     1|
+|958   |        \L1[27].FF       |flipflop_475                        |     1|
+|959   |        \L1[28].FF       |flipflop_476                        |     1|
+|960   |        \L1[29].FF       |flipflop_477                        |     1|
+|961   |        \L1[2].FF        |flipflop_478                        |     1|
+|962   |        \L1[30].FF       |flipflop_479                        |     1|
+|963   |        \L1[31].FF       |flipflop_480                        |     1|
+|964   |        \L1[3].FF        |flipflop_481                        |     1|
+|965   |        \L1[4].FF        |flipflop_482                        |     1|
+|966   |        \L1[5].FF        |flipflop_483                        |     1|
+|967   |        \L1[6].FF        |flipflop_484                        |     1|
+|968   |        \L1[7].FF        |flipflop_485                        |     1|
+|969   |        \L1[8].FF        |flipflop_486                        |     1|
+|970   |        \L1[9].FF        |flipflop_487                        |     1|
+|971   |      \L1[27].reg        |Register_AsyncReset_28              |   224|
+|972   |        \L1[0].FF        |flipflop_424                        |     7|
+|973   |        \L1[10].FF       |flipflop_425                        |     7|
+|974   |        \L1[11].FF       |flipflop_426                        |     7|
+|975   |        \L1[12].FF       |flipflop_427                        |     7|
+|976   |        \L1[13].FF       |flipflop_428                        |     7|
+|977   |        \L1[14].FF       |flipflop_429                        |     7|
+|978   |        \L1[15].FF       |flipflop_430                        |     7|
+|979   |        \L1[16].FF       |flipflop_431                        |     7|
+|980   |        \L1[17].FF       |flipflop_432                        |     7|
+|981   |        \L1[18].FF       |flipflop_433                        |     7|
+|982   |        \L1[19].FF       |flipflop_434                        |     7|
+|983   |        \L1[1].FF        |flipflop_435                        |     7|
+|984   |        \L1[20].FF       |flipflop_436                        |     7|
+|985   |        \L1[21].FF       |flipflop_437                        |     7|
+|986   |        \L1[22].FF       |flipflop_438                        |     7|
+|987   |        \L1[23].FF       |flipflop_439                        |     7|
+|988   |        \L1[24].FF       |flipflop_440                        |     7|
+|989   |        \L1[25].FF       |flipflop_441                        |     7|
+|990   |        \L1[26].FF       |flipflop_442                        |     7|
+|991   |        \L1[27].FF       |flipflop_443                        |     7|
+|992   |        \L1[28].FF       |flipflop_444                        |     7|
+|993   |        \L1[29].FF       |flipflop_445                        |     7|
+|994   |        \L1[2].FF        |flipflop_446                        |     7|
+|995   |        \L1[30].FF       |flipflop_447                        |     7|
+|996   |        \L1[31].FF       |flipflop_448                        |     7|
+|997   |        \L1[3].FF        |flipflop_449                        |     7|
+|998   |        \L1[4].FF        |flipflop_450                        |     7|
+|999   |        \L1[5].FF        |flipflop_451                        |     7|
+|1000  |        \L1[6].FF        |flipflop_452                        |     7|
+|1001  |        \L1[7].FF        |flipflop_453                        |     7|
+|1002  |        \L1[8].FF        |flipflop_454                        |     7|
+|1003  |        \L1[9].FF        |flipflop_455                        |     7|
+|1004  |      \L1[28].reg        |Register_AsyncReset_29              |    32|
+|1005  |        \L1[0].FF        |flipflop_392                        |     1|
+|1006  |        \L1[10].FF       |flipflop_393                        |     1|
+|1007  |        \L1[11].FF       |flipflop_394                        |     1|
+|1008  |        \L1[12].FF       |flipflop_395                        |     1|
+|1009  |        \L1[13].FF       |flipflop_396                        |     1|
+|1010  |        \L1[14].FF       |flipflop_397                        |     1|
+|1011  |        \L1[15].FF       |flipflop_398                        |     1|
+|1012  |        \L1[16].FF       |flipflop_399                        |     1|
+|1013  |        \L1[17].FF       |flipflop_400                        |     1|
+|1014  |        \L1[18].FF       |flipflop_401                        |     1|
+|1015  |        \L1[19].FF       |flipflop_402                        |     1|
+|1016  |        \L1[1].FF        |flipflop_403                        |     1|
+|1017  |        \L1[20].FF       |flipflop_404                        |     1|
+|1018  |        \L1[21].FF       |flipflop_405                        |     1|
+|1019  |        \L1[22].FF       |flipflop_406                        |     1|
+|1020  |        \L1[23].FF       |flipflop_407                        |     1|
+|1021  |        \L1[24].FF       |flipflop_408                        |     1|
+|1022  |        \L1[25].FF       |flipflop_409                        |     1|
+|1023  |        \L1[26].FF       |flipflop_410                        |     1|
+|1024  |        \L1[27].FF       |flipflop_411                        |     1|
+|1025  |        \L1[28].FF       |flipflop_412                        |     1|
+|1026  |        \L1[29].FF       |flipflop_413                        |     1|
+|1027  |        \L1[2].FF        |flipflop_414                        |     1|
+|1028  |        \L1[30].FF       |flipflop_415                        |     1|
+|1029  |        \L1[31].FF       |flipflop_416                        |     1|
+|1030  |        \L1[3].FF        |flipflop_417                        |     1|
+|1031  |        \L1[4].FF        |flipflop_418                        |     1|
+|1032  |        \L1[5].FF        |flipflop_419                        |     1|
+|1033  |        \L1[6].FF        |flipflop_420                        |     1|
+|1034  |        \L1[7].FF        |flipflop_421                        |     1|
+|1035  |        \L1[8].FF        |flipflop_422                        |     1|
+|1036  |        \L1[9].FF        |flipflop_423                        |     1|
+|1037  |      \L1[29].reg        |Register_AsyncReset_30              |    32|
+|1038  |        \L1[0].FF        |flipflop_360                        |     1|
+|1039  |        \L1[10].FF       |flipflop_361                        |     1|
+|1040  |        \L1[11].FF       |flipflop_362                        |     1|
+|1041  |        \L1[12].FF       |flipflop_363                        |     1|
+|1042  |        \L1[13].FF       |flipflop_364                        |     1|
+|1043  |        \L1[14].FF       |flipflop_365                        |     1|
+|1044  |        \L1[15].FF       |flipflop_366                        |     1|
+|1045  |        \L1[16].FF       |flipflop_367                        |     1|
+|1046  |        \L1[17].FF       |flipflop_368                        |     1|
+|1047  |        \L1[18].FF       |flipflop_369                        |     1|
+|1048  |        \L1[19].FF       |flipflop_370                        |     1|
+|1049  |        \L1[1].FF        |flipflop_371                        |     1|
+|1050  |        \L1[20].FF       |flipflop_372                        |     1|
+|1051  |        \L1[21].FF       |flipflop_373                        |     1|
+|1052  |        \L1[22].FF       |flipflop_374                        |     1|
+|1053  |        \L1[23].FF       |flipflop_375                        |     1|
+|1054  |        \L1[24].FF       |flipflop_376                        |     1|
+|1055  |        \L1[25].FF       |flipflop_377                        |     1|
+|1056  |        \L1[26].FF       |flipflop_378                        |     1|
+|1057  |        \L1[27].FF       |flipflop_379                        |     1|
+|1058  |        \L1[28].FF       |flipflop_380                        |     1|
+|1059  |        \L1[29].FF       |flipflop_381                        |     1|
+|1060  |        \L1[2].FF        |flipflop_382                        |     1|
+|1061  |        \L1[30].FF       |flipflop_383                        |     1|
+|1062  |        \L1[31].FF       |flipflop_384                        |     1|
+|1063  |        \L1[3].FF        |flipflop_385                        |     1|
+|1064  |        \L1[4].FF        |flipflop_386                        |     1|
+|1065  |        \L1[5].FF        |flipflop_387                        |     1|
+|1066  |        \L1[6].FF        |flipflop_388                        |     1|
+|1067  |        \L1[7].FF        |flipflop_389                        |     1|
+|1068  |        \L1[8].FF        |flipflop_390                        |     1|
+|1069  |        \L1[9].FF        |flipflop_391                        |     1|
+|1070  |      \L1[2].reg         |Register_AsyncReset_31              |    32|
+|1071  |        \L1[0].FF        |flipflop_328                        |     1|
+|1072  |        \L1[10].FF       |flipflop_329                        |     1|
+|1073  |        \L1[11].FF       |flipflop_330                        |     1|
+|1074  |        \L1[12].FF       |flipflop_331                        |     1|
+|1075  |        \L1[13].FF       |flipflop_332                        |     1|
+|1076  |        \L1[14].FF       |flipflop_333                        |     1|
+|1077  |        \L1[15].FF       |flipflop_334                        |     1|
+|1078  |        \L1[16].FF       |flipflop_335                        |     1|
+|1079  |        \L1[17].FF       |flipflop_336                        |     1|
+|1080  |        \L1[18].FF       |flipflop_337                        |     1|
+|1081  |        \L1[19].FF       |flipflop_338                        |     1|
+|1082  |        \L1[1].FF        |flipflop_339                        |     1|
+|1083  |        \L1[20].FF       |flipflop_340                        |     1|
+|1084  |        \L1[21].FF       |flipflop_341                        |     1|
+|1085  |        \L1[22].FF       |flipflop_342                        |     1|
+|1086  |        \L1[23].FF       |flipflop_343                        |     1|
+|1087  |        \L1[24].FF       |flipflop_344                        |     1|
+|1088  |        \L1[25].FF       |flipflop_345                        |     1|
+|1089  |        \L1[26].FF       |flipflop_346                        |     1|
+|1090  |        \L1[27].FF       |flipflop_347                        |     1|
+|1091  |        \L1[28].FF       |flipflop_348                        |     1|
+|1092  |        \L1[29].FF       |flipflop_349                        |     1|
+|1093  |        \L1[2].FF        |flipflop_350                        |     1|
+|1094  |        \L1[30].FF       |flipflop_351                        |     1|
+|1095  |        \L1[31].FF       |flipflop_352                        |     1|
+|1096  |        \L1[3].FF        |flipflop_353                        |     1|
+|1097  |        \L1[4].FF        |flipflop_354                        |     1|
+|1098  |        \L1[5].FF        |flipflop_355                        |     1|
+|1099  |        \L1[6].FF        |flipflop_356                        |     1|
+|1100  |        \L1[7].FF        |flipflop_357                        |     1|
+|1101  |        \L1[8].FF        |flipflop_358                        |     1|
+|1102  |        \L1[9].FF        |flipflop_359                        |     1|
+|1103  |      \L1[30].reg        |Register_AsyncReset_32              |    32|
+|1104  |        \L1[0].FF        |flipflop_296                        |     1|
+|1105  |        \L1[10].FF       |flipflop_297                        |     1|
+|1106  |        \L1[11].FF       |flipflop_298                        |     1|
+|1107  |        \L1[12].FF       |flipflop_299                        |     1|
+|1108  |        \L1[13].FF       |flipflop_300                        |     1|
+|1109  |        \L1[14].FF       |flipflop_301                        |     1|
+|1110  |        \L1[15].FF       |flipflop_302                        |     1|
+|1111  |        \L1[16].FF       |flipflop_303                        |     1|
+|1112  |        \L1[17].FF       |flipflop_304                        |     1|
+|1113  |        \L1[18].FF       |flipflop_305                        |     1|
+|1114  |        \L1[19].FF       |flipflop_306                        |     1|
+|1115  |        \L1[1].FF        |flipflop_307                        |     1|
+|1116  |        \L1[20].FF       |flipflop_308                        |     1|
+|1117  |        \L1[21].FF       |flipflop_309                        |     1|
+|1118  |        \L1[22].FF       |flipflop_310                        |     1|
+|1119  |        \L1[23].FF       |flipflop_311                        |     1|
+|1120  |        \L1[24].FF       |flipflop_312                        |     1|
+|1121  |        \L1[25].FF       |flipflop_313                        |     1|
+|1122  |        \L1[26].FF       |flipflop_314                        |     1|
+|1123  |        \L1[27].FF       |flipflop_315                        |     1|
+|1124  |        \L1[28].FF       |flipflop_316                        |     1|
+|1125  |        \L1[29].FF       |flipflop_317                        |     1|
+|1126  |        \L1[2].FF        |flipflop_318                        |     1|
+|1127  |        \L1[30].FF       |flipflop_319                        |     1|
+|1128  |        \L1[31].FF       |flipflop_320                        |     1|
+|1129  |        \L1[3].FF        |flipflop_321                        |     1|
+|1130  |        \L1[4].FF        |flipflop_322                        |     1|
+|1131  |        \L1[5].FF        |flipflop_323                        |     1|
+|1132  |        \L1[6].FF        |flipflop_324                        |     1|
+|1133  |        \L1[7].FF        |flipflop_325                        |     1|
+|1134  |        \L1[8].FF        |flipflop_326                        |     1|
+|1135  |        \L1[9].FF        |flipflop_327                        |     1|
+|1136  |      \L1[31].reg        |Register_AsyncReset_33              |    96|
+|1137  |        \L1[0].FF        |flipflop_264                        |     3|
+|1138  |        \L1[10].FF       |flipflop_265                        |     3|
+|1139  |        \L1[11].FF       |flipflop_266                        |     3|
+|1140  |        \L1[12].FF       |flipflop_267                        |     3|
+|1141  |        \L1[13].FF       |flipflop_268                        |     3|
+|1142  |        \L1[14].FF       |flipflop_269                        |     3|
+|1143  |        \L1[15].FF       |flipflop_270                        |     3|
+|1144  |        \L1[16].FF       |flipflop_271                        |     3|
+|1145  |        \L1[17].FF       |flipflop_272                        |     3|
+|1146  |        \L1[18].FF       |flipflop_273                        |     3|
+|1147  |        \L1[19].FF       |flipflop_274                        |     3|
+|1148  |        \L1[1].FF        |flipflop_275                        |     3|
+|1149  |        \L1[20].FF       |flipflop_276                        |     3|
+|1150  |        \L1[21].FF       |flipflop_277                        |     3|
+|1151  |        \L1[22].FF       |flipflop_278                        |     3|
+|1152  |        \L1[23].FF       |flipflop_279                        |     3|
+|1153  |        \L1[24].FF       |flipflop_280                        |     3|
+|1154  |        \L1[25].FF       |flipflop_281                        |     3|
+|1155  |        \L1[26].FF       |flipflop_282                        |     3|
+|1156  |        \L1[27].FF       |flipflop_283                        |     3|
+|1157  |        \L1[28].FF       |flipflop_284                        |     3|
+|1158  |        \L1[29].FF       |flipflop_285                        |     3|
+|1159  |        \L1[2].FF        |flipflop_286                        |     3|
+|1160  |        \L1[30].FF       |flipflop_287                        |     3|
+|1161  |        \L1[31].FF       |flipflop_288                        |     3|
+|1162  |        \L1[3].FF        |flipflop_289                        |     3|
+|1163  |        \L1[4].FF        |flipflop_290                        |     3|
+|1164  |        \L1[5].FF        |flipflop_291                        |     3|
+|1165  |        \L1[6].FF        |flipflop_292                        |     3|
+|1166  |        \L1[7].FF        |flipflop_293                        |     3|
+|1167  |        \L1[8].FF        |flipflop_294                        |     3|
+|1168  |        \L1[9].FF        |flipflop_295                        |     3|
+|1169  |      \L1[3].reg         |Register_AsyncReset_34              |   160|
+|1170  |        \L1[0].FF        |flipflop_232                        |     5|
+|1171  |        \L1[10].FF       |flipflop_233                        |     5|
+|1172  |        \L1[11].FF       |flipflop_234                        |     5|
+|1173  |        \L1[12].FF       |flipflop_235                        |     5|
+|1174  |        \L1[13].FF       |flipflop_236                        |     5|
+|1175  |        \L1[14].FF       |flipflop_237                        |     5|
+|1176  |        \L1[15].FF       |flipflop_238                        |     5|
+|1177  |        \L1[16].FF       |flipflop_239                        |     5|
+|1178  |        \L1[17].FF       |flipflop_240                        |     5|
+|1179  |        \L1[18].FF       |flipflop_241                        |     5|
+|1180  |        \L1[19].FF       |flipflop_242                        |     5|
+|1181  |        \L1[1].FF        |flipflop_243                        |     5|
+|1182  |        \L1[20].FF       |flipflop_244                        |     5|
+|1183  |        \L1[21].FF       |flipflop_245                        |     5|
+|1184  |        \L1[22].FF       |flipflop_246                        |     5|
+|1185  |        \L1[23].FF       |flipflop_247                        |     5|
+|1186  |        \L1[24].FF       |flipflop_248                        |     5|
+|1187  |        \L1[25].FF       |flipflop_249                        |     5|
+|1188  |        \L1[26].FF       |flipflop_250                        |     5|
+|1189  |        \L1[27].FF       |flipflop_251                        |     5|
+|1190  |        \L1[28].FF       |flipflop_252                        |     5|
+|1191  |        \L1[29].FF       |flipflop_253                        |     5|
+|1192  |        \L1[2].FF        |flipflop_254                        |     5|
+|1193  |        \L1[30].FF       |flipflop_255                        |     5|
+|1194  |        \L1[31].FF       |flipflop_256                        |     5|
+|1195  |        \L1[3].FF        |flipflop_257                        |     5|
+|1196  |        \L1[4].FF        |flipflop_258                        |     5|
+|1197  |        \L1[5].FF        |flipflop_259                        |     5|
+|1198  |        \L1[6].FF        |flipflop_260                        |     5|
+|1199  |        \L1[7].FF        |flipflop_261                        |     5|
+|1200  |        \L1[8].FF        |flipflop_262                        |     5|
+|1201  |        \L1[9].FF        |flipflop_263                        |     5|
+|1202  |      \L1[4].reg         |Register_AsyncReset_35              |    32|
+|1203  |        \L1[0].FF        |flipflop_200                        |     1|
+|1204  |        \L1[10].FF       |flipflop_201                        |     1|
+|1205  |        \L1[11].FF       |flipflop_202                        |     1|
+|1206  |        \L1[12].FF       |flipflop_203                        |     1|
+|1207  |        \L1[13].FF       |flipflop_204                        |     1|
+|1208  |        \L1[14].FF       |flipflop_205                        |     1|
+|1209  |        \L1[15].FF       |flipflop_206                        |     1|
+|1210  |        \L1[16].FF       |flipflop_207                        |     1|
+|1211  |        \L1[17].FF       |flipflop_208                        |     1|
+|1212  |        \L1[18].FF       |flipflop_209                        |     1|
+|1213  |        \L1[19].FF       |flipflop_210                        |     1|
+|1214  |        \L1[1].FF        |flipflop_211                        |     1|
+|1215  |        \L1[20].FF       |flipflop_212                        |     1|
+|1216  |        \L1[21].FF       |flipflop_213                        |     1|
+|1217  |        \L1[22].FF       |flipflop_214                        |     1|
+|1218  |        \L1[23].FF       |flipflop_215                        |     1|
+|1219  |        \L1[24].FF       |flipflop_216                        |     1|
+|1220  |        \L1[25].FF       |flipflop_217                        |     1|
+|1221  |        \L1[26].FF       |flipflop_218                        |     1|
+|1222  |        \L1[27].FF       |flipflop_219                        |     1|
+|1223  |        \L1[28].FF       |flipflop_220                        |     1|
+|1224  |        \L1[29].FF       |flipflop_221                        |     1|
+|1225  |        \L1[2].FF        |flipflop_222                        |     1|
+|1226  |        \L1[30].FF       |flipflop_223                        |     1|
+|1227  |        \L1[31].FF       |flipflop_224                        |     1|
+|1228  |        \L1[3].FF        |flipflop_225                        |     1|
+|1229  |        \L1[4].FF        |flipflop_226                        |     1|
+|1230  |        \L1[5].FF        |flipflop_227                        |     1|
+|1231  |        \L1[6].FF        |flipflop_228                        |     1|
+|1232  |        \L1[7].FF        |flipflop_229                        |     1|
+|1233  |        \L1[8].FF        |flipflop_230                        |     1|
+|1234  |        \L1[9].FF        |flipflop_231                        |     1|
+|1235  |      \L1[5].reg         |Register_AsyncReset_36              |    32|
+|1236  |        \L1[0].FF        |flipflop_168                        |     1|
+|1237  |        \L1[10].FF       |flipflop_169                        |     1|
+|1238  |        \L1[11].FF       |flipflop_170                        |     1|
+|1239  |        \L1[12].FF       |flipflop_171                        |     1|
+|1240  |        \L1[13].FF       |flipflop_172                        |     1|
+|1241  |        \L1[14].FF       |flipflop_173                        |     1|
+|1242  |        \L1[15].FF       |flipflop_174                        |     1|
+|1243  |        \L1[16].FF       |flipflop_175                        |     1|
+|1244  |        \L1[17].FF       |flipflop_176                        |     1|
+|1245  |        \L1[18].FF       |flipflop_177                        |     1|
+|1246  |        \L1[19].FF       |flipflop_178                        |     1|
+|1247  |        \L1[1].FF        |flipflop_179                        |     1|
+|1248  |        \L1[20].FF       |flipflop_180                        |     1|
+|1249  |        \L1[21].FF       |flipflop_181                        |     1|
+|1250  |        \L1[22].FF       |flipflop_182                        |     1|
+|1251  |        \L1[23].FF       |flipflop_183                        |     1|
+|1252  |        \L1[24].FF       |flipflop_184                        |     1|
+|1253  |        \L1[25].FF       |flipflop_185                        |     1|
+|1254  |        \L1[26].FF       |flipflop_186                        |     1|
+|1255  |        \L1[27].FF       |flipflop_187                        |     1|
+|1256  |        \L1[28].FF       |flipflop_188                        |     1|
+|1257  |        \L1[29].FF       |flipflop_189                        |     1|
+|1258  |        \L1[2].FF        |flipflop_190                        |     1|
+|1259  |        \L1[30].FF       |flipflop_191                        |     1|
+|1260  |        \L1[31].FF       |flipflop_192                        |     1|
+|1261  |        \L1[3].FF        |flipflop_193                        |     1|
+|1262  |        \L1[4].FF        |flipflop_194                        |     1|
+|1263  |        \L1[5].FF        |flipflop_195                        |     1|
+|1264  |        \L1[6].FF        |flipflop_196                        |     1|
+|1265  |        \L1[7].FF        |flipflop_197                        |     1|
+|1266  |        \L1[8].FF        |flipflop_198                        |     1|
+|1267  |        \L1[9].FF        |flipflop_199                        |     1|
+|1268  |      \L1[6].reg         |Register_AsyncReset_37              |    32|
+|1269  |        \L1[0].FF        |flipflop_136                        |     1|
+|1270  |        \L1[10].FF       |flipflop_137                        |     1|
+|1271  |        \L1[11].FF       |flipflop_138                        |     1|
+|1272  |        \L1[12].FF       |flipflop_139                        |     1|
+|1273  |        \L1[13].FF       |flipflop_140                        |     1|
+|1274  |        \L1[14].FF       |flipflop_141                        |     1|
+|1275  |        \L1[15].FF       |flipflop_142                        |     1|
+|1276  |        \L1[16].FF       |flipflop_143                        |     1|
+|1277  |        \L1[17].FF       |flipflop_144                        |     1|
+|1278  |        \L1[18].FF       |flipflop_145                        |     1|
+|1279  |        \L1[19].FF       |flipflop_146                        |     1|
+|1280  |        \L1[1].FF        |flipflop_147                        |     1|
+|1281  |        \L1[20].FF       |flipflop_148                        |     1|
+|1282  |        \L1[21].FF       |flipflop_149                        |     1|
+|1283  |        \L1[22].FF       |flipflop_150                        |     1|
+|1284  |        \L1[23].FF       |flipflop_151                        |     1|
+|1285  |        \L1[24].FF       |flipflop_152                        |     1|
+|1286  |        \L1[25].FF       |flipflop_153                        |     1|
+|1287  |        \L1[26].FF       |flipflop_154                        |     1|
+|1288  |        \L1[27].FF       |flipflop_155                        |     1|
+|1289  |        \L1[28].FF       |flipflop_156                        |     1|
+|1290  |        \L1[29].FF       |flipflop_157                        |     1|
+|1291  |        \L1[2].FF        |flipflop_158                        |     1|
+|1292  |        \L1[30].FF       |flipflop_159                        |     1|
+|1293  |        \L1[31].FF       |flipflop_160                        |     1|
+|1294  |        \L1[3].FF        |flipflop_161                        |     1|
+|1295  |        \L1[4].FF        |flipflop_162                        |     1|
+|1296  |        \L1[5].FF        |flipflop_163                        |     1|
+|1297  |        \L1[6].FF        |flipflop_164                        |     1|
+|1298  |        \L1[7].FF        |flipflop_165                        |     1|
+|1299  |        \L1[8].FF        |flipflop_166                        |     1|
+|1300  |        \L1[9].FF        |flipflop_167                        |     1|
+|1301  |      \L1[7].reg         |Register_AsyncReset_38              |    96|
+|1302  |        \L1[0].FF        |flipflop_104                        |     3|
+|1303  |        \L1[10].FF       |flipflop_105                        |     3|
+|1304  |        \L1[11].FF       |flipflop_106                        |     3|
+|1305  |        \L1[12].FF       |flipflop_107                        |     3|
+|1306  |        \L1[13].FF       |flipflop_108                        |     3|
+|1307  |        \L1[14].FF       |flipflop_109                        |     3|
+|1308  |        \L1[15].FF       |flipflop_110                        |     3|
+|1309  |        \L1[16].FF       |flipflop_111                        |     3|
+|1310  |        \L1[17].FF       |flipflop_112                        |     3|
+|1311  |        \L1[18].FF       |flipflop_113                        |     3|
+|1312  |        \L1[19].FF       |flipflop_114                        |     3|
+|1313  |        \L1[1].FF        |flipflop_115                        |     3|
+|1314  |        \L1[20].FF       |flipflop_116                        |     3|
+|1315  |        \L1[21].FF       |flipflop_117                        |     3|
+|1316  |        \L1[22].FF       |flipflop_118                        |     3|
+|1317  |        \L1[23].FF       |flipflop_119                        |     3|
+|1318  |        \L1[24].FF       |flipflop_120                        |     3|
+|1319  |        \L1[25].FF       |flipflop_121                        |     3|
+|1320  |        \L1[26].FF       |flipflop_122                        |     3|
+|1321  |        \L1[27].FF       |flipflop_123                        |     3|
+|1322  |        \L1[28].FF       |flipflop_124                        |     3|
+|1323  |        \L1[29].FF       |flipflop_125                        |     3|
+|1324  |        \L1[2].FF        |flipflop_126                        |     3|
+|1325  |        \L1[30].FF       |flipflop_127                        |     3|
+|1326  |        \L1[31].FF       |flipflop_128                        |     3|
+|1327  |        \L1[3].FF        |flipflop_129                        |     3|
+|1328  |        \L1[4].FF        |flipflop_130                        |     3|
+|1329  |        \L1[5].FF        |flipflop_131                        |     3|
+|1330  |        \L1[6].FF        |flipflop_132                        |     3|
+|1331  |        \L1[7].FF        |flipflop_133                        |     3|
+|1332  |        \L1[8].FF        |flipflop_134                        |     3|
+|1333  |        \L1[9].FF        |flipflop_135                        |     3|
+|1334  |      \L1[8].reg         |Register_AsyncReset_39              |    32|
+|1335  |        \L1[0].FF        |flipflop_72                         |     1|
+|1336  |        \L1[10].FF       |flipflop_73                         |     1|
+|1337  |        \L1[11].FF       |flipflop_74                         |     1|
+|1338  |        \L1[12].FF       |flipflop_75                         |     1|
+|1339  |        \L1[13].FF       |flipflop_76                         |     1|
+|1340  |        \L1[14].FF       |flipflop_77                         |     1|
+|1341  |        \L1[15].FF       |flipflop_78                         |     1|
+|1342  |        \L1[16].FF       |flipflop_79                         |     1|
+|1343  |        \L1[17].FF       |flipflop_80                         |     1|
+|1344  |        \L1[18].FF       |flipflop_81                         |     1|
+|1345  |        \L1[19].FF       |flipflop_82                         |     1|
+|1346  |        \L1[1].FF        |flipflop_83                         |     1|
+|1347  |        \L1[20].FF       |flipflop_84                         |     1|
+|1348  |        \L1[21].FF       |flipflop_85                         |     1|
+|1349  |        \L1[22].FF       |flipflop_86                         |     1|
+|1350  |        \L1[23].FF       |flipflop_87                         |     1|
+|1351  |        \L1[24].FF       |flipflop_88                         |     1|
+|1352  |        \L1[25].FF       |flipflop_89                         |     1|
+|1353  |        \L1[26].FF       |flipflop_90                         |     1|
+|1354  |        \L1[27].FF       |flipflop_91                         |     1|
+|1355  |        \L1[28].FF       |flipflop_92                         |     1|
+|1356  |        \L1[29].FF       |flipflop_93                         |     1|
+|1357  |        \L1[2].FF        |flipflop_94                         |     1|
+|1358  |        \L1[30].FF       |flipflop_95                         |     1|
+|1359  |        \L1[31].FF       |flipflop_96                         |     1|
+|1360  |        \L1[3].FF        |flipflop_97                         |     1|
+|1361  |        \L1[4].FF        |flipflop_98                         |     1|
+|1362  |        \L1[5].FF        |flipflop_99                         |     1|
+|1363  |        \L1[6].FF        |flipflop_100                        |     1|
+|1364  |        \L1[7].FF        |flipflop_101                        |     1|
+|1365  |        \L1[8].FF        |flipflop_102                        |     1|
+|1366  |        \L1[9].FF        |flipflop_103                        |     1|
+|1367  |      \L1[9].reg         |Register_AsyncReset_40              |    32|
+|1368  |        \L1[0].FF        |flipflop                            |     1|
+|1369  |        \L1[10].FF       |flipflop_41                         |     1|
+|1370  |        \L1[11].FF       |flipflop_42                         |     1|
+|1371  |        \L1[12].FF       |flipflop_43                         |     1|
+|1372  |        \L1[13].FF       |flipflop_44                         |     1|
+|1373  |        \L1[14].FF       |flipflop_45                         |     1|
+|1374  |        \L1[15].FF       |flipflop_46                         |     1|
+|1375  |        \L1[16].FF       |flipflop_47                         |     1|
+|1376  |        \L1[17].FF       |flipflop_48                         |     1|
+|1377  |        \L1[18].FF       |flipflop_49                         |     1|
+|1378  |        \L1[19].FF       |flipflop_50                         |     1|
+|1379  |        \L1[1].FF        |flipflop_51                         |     1|
+|1380  |        \L1[20].FF       |flipflop_52                         |     1|
+|1381  |        \L1[21].FF       |flipflop_53                         |     1|
+|1382  |        \L1[22].FF       |flipflop_54                         |     1|
+|1383  |        \L1[23].FF       |flipflop_55                         |     1|
+|1384  |        \L1[24].FF       |flipflop_56                         |     1|
+|1385  |        \L1[25].FF       |flipflop_57                         |     1|
+|1386  |        \L1[26].FF       |flipflop_58                         |     1|
+|1387  |        \L1[27].FF       |flipflop_59                         |     1|
+|1388  |        \L1[28].FF       |flipflop_60                         |     1|
+|1389  |        \L1[29].FF       |flipflop_61                         |     1|
+|1390  |        \L1[2].FF        |flipflop_62                         |     1|
+|1391  |        \L1[30].FF       |flipflop_63                         |     1|
+|1392  |        \L1[31].FF       |flipflop_64                         |     1|
+|1393  |        \L1[3].FF        |flipflop_65                         |     1|
+|1394  |        \L1[4].FF        |flipflop_66                         |     1|
+|1395  |        \L1[5].FF        |flipflop_67                         |     1|
+|1396  |        \L1[6].FF        |flipflop_68                         |     1|
+|1397  |        \L1[7].FF        |flipflop_69                         |     1|
+|1398  |        \L1[8].FF        |flipflop_70                         |     1|
+|1399  |        \L1[9].FF        |flipflop_71                         |     1|
+|1400  |    Shamt_mux            |MUX_2__parameterized2               |     5|
+|1401  |    Write_data_Mux       |MUX_7                               |    70|
++------+-------------------------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 831.246 ; gain = 563.492
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 831.246 ; gain = 199.926
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 831.246 ; gain = 563.492
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 305 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 831.691 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  LD => LDCE: 18 instances
+  LDC => LDCE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+213 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 831.691 ; gain = 577.426
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 831.691 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.runs/Lab_4_Mips_CPU_0_0_synth_1/Lab_4_Mips_CPU_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 1400 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 831.691 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4/Lab_4.runs/Lab_4_Mips_CPU_0_0_synth_1/Lab_4_Mips_CPU_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Lab_4_Mips_CPU_0_0_utilization_synth.rpt -pb Lab_4_Mips_CPU_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  7 12:28:27 2023...

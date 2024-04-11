@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('a_load_2', vhls/mmult.h:54->vhls/mmult.h:151->vhls/mmult_accel.cpp:36) on array 'a', vhls/mmult.h:125->vhls/mmult_accel.cpp:36 due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'a'." projectName="Lab_5" solutionName="solution1" date="2023-11-14T22:02:13.852-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'INPUT_STREAM.data.V' (vhls/mmult_accel.cpp:21)." projectName="Lab_5" solutionName="solution1" date="2023-11-14T22:02:12.413-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'OUTPUT_STREAM.data.V' (vhls/mmult_accel.cpp:21)." projectName="Lab_5" solutionName="solution1" date="2023-11-14T22:02:12.393-0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

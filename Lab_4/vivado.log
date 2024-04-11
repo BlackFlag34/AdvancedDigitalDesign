@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 18 16:19:16 2024
+# Process ID: 25768
+# Current directory: C:/Users/tyqca/OneDrive/School/Labs/ECE1195_Labs/Lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29800 C:\Users\tyqca\OneDrive\School\Labs\ECE1195_Labs\Lab_4\Lab_4.xpr
+# Log file: C:/Users/tyqca/OneDrive/School/Labs/ECE1195_Labs/Lab_4/vivado.log
+# Journal file: C:/Users/tyqca/OneDrive/School/Labs/ECE1195_Labs/Lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tyqca/OneDrive/School/Labs/ECE1195_Labs/Lab_4/Lab_4.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_4' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tyqca/OneDrive/School/Labs/ECE1195_Labs/IntraLab_resources/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 771.676 ; gain = 146.148
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 18 23:16:32 2024...
+b_4.srcs/sources_1/bd/Lab_4/Lab_4.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- SHREC:SHREC:axi_regmap:1.0 - axi_regmap_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:module_ref:Mips_CPU:1.0 - Mips_CPU_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_regmap_0/REG0_OUT(undef) and /blk_mem_gen_0/rstb(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_regmap_0/REG0_OUT(undef) and /Mips_CPU_0/Reset(rst)
+Successfully read diagram <Lab_4> from BD file <C:/Users/tyqca/OneDrive/School/Labs/ECE1195_Labs/Lab_4/Lab_4.srcs/sources_1/bd/Lab_4/Lab_4.bd>
+open_bd_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1081.062 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 18 18:34:03 2024...

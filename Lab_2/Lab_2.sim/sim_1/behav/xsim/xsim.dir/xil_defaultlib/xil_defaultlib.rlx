@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/IntraLab_resources/ECE1195_repo/Arith_Unit/src/Arith_Unit.vhd,1695667319,vhdl,,,,arith_unit,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,axi_vip_v1_1_4;processing_system7_vip_v1_0_6;xilinx_vip,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sim_1/new/ALU_Comp_TB.vhd,1695837507,vhdl,,,,alu_comp_tb,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sim_1/new/ALU_Logical_TB.vhd,1695916388,vhdl,,,,alu_logical_tb,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sim_1/new/ALU_Shift_TB.vhd,1695851902,vhdl,,,,alu_shift_tb,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sim_1/new/ALU_TB.vhd,1695929815,vhdl,,,,alu_tb,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU.vhd,1695915218,vhdl,,,,alu,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU_Comp.vhd,1695832557,vhdl,,,,alu_comp,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU_Logical.vhd,1695841261,vhdl,,,,alu_logical,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU_Mux.vhd,1695916575,vhdl,,,,alu_mux,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.srcs/sources_1/new/ALU_Shift.vhd,1695851893,vhdl,,,,alu_shift,,,,,,,,

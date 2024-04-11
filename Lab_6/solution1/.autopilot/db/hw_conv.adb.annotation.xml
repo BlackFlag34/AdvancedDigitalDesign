@@ -1,0 +1,11 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="33" filename="Lab_6/convolution.cpp" linenumber="109" name="lbuf_0" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="lbuf_0_U" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<item  id="34" filename="Lab_6/convolution.cpp" linenumber="109" name="lbuf_1" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="lbuf_1_U" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<item  id="1062" filename="Lab_6/convolution.cpp" linenumber="118" name="exitcond1" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="exitcond1_fu_9376_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<item  id="1064" filename="Lab_6/convolution.cpp" linenumber="118" name="i_1" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="i_1_fu_9382_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="26" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<item  id="3105" filename="Lab_6/convolution.cpp" linenumber="215" name="tmp" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="tmp_fu_9403_p3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<item  id="3112" filename="Lab_6/convolution.cpp" linenumber="260" name="tmp_s" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="tmp_s_fu_9411_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<item  id="3115" filename="Lab_6/convolution.cpp" linenumber="264" name="tmp_last_V" contextFuncName="hw_conv" moduleName="hw_conv" rtlName="tmp_last_V_fu_9417_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="C:\Users\tyqca\OneDrive\School\Labs\1195_Labs"><\/item>
+<\/annotationInfo>
+</annotationInfo>

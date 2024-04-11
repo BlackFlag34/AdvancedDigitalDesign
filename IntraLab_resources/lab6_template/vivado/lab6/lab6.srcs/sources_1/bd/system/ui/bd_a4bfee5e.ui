@@ -1,0 +1,45 @@
+{
+   "ExpandedHierarchyInLayout":"/ACCEL|/SYSTEM",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 100 -defaultsOSRD
+preplace inst SYSTEM|PSR -pg 1 -lvl 4 -y 612 -defaultsOSRD
+preplace inst ACCEL -pg 1 -lvl 1 -y 122 -defaultsOSRD
+preplace inst SYSTEM -pg 1 -lvl 2 -y 122 -defaultsOSRD
+preplace inst SYSTEM|AXI_DMA -pg 1 -lvl 2 -y 232 -defaultsOSRD
+preplace inst SYSTEM|PL2PS_AXI -pg 1 -lvl 3 -y 432 -defaultsOSRD
+preplace inst SYSTEM|PS2PL_AXI -pg 1 -lvl 1 -y 182 -defaultsOSRD
+preplace inst ACCEL|AXIS_DATA_FIFO -pg 1 -lvl 1 -y 152 -defaultsOSRD
+preplace inst SYSTEM|IRQ_CONCAT -pg 1 -lvl 3 -y 272 -defaultsOSRD
+preplace inst SYSTEM|PS7 -pg 1 -lvl 4 -y 232 -defaultsOSRD
+preplace netloc SYSTEM|AXI_DMA_M_AXI 1 2 1 1220
+preplace netloc SYSTEM|Conn4 1 4 1 N
+preplace netloc SYSTEM|PS2PL_AXI_M00_AXI 1 1 1 N
+preplace netloc SYSTEM|PS7_FCLK_CLK0 1 0 5 550 302 860 352 1200 522 1490 362 1940
+preplace netloc ACCEL|s_axis_aresetn_1 1 0 1 90
+preplace netloc ACCEL|s_axis_aclk_1 1 0 1 N
+preplace netloc ACCEL_M_AXIS 1 1 1 450
+preplace netloc SYSTEM|axi_smc_M00_AXI 1 3 1 1480
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 3 -70 274 440J 734 2100
+preplace netloc SYSTEM_FIXED_IO 1 2 1 2130J
+preplace netloc SYSTEM|M00_ARESETN_1 1 0 5 560 312 870 362 1190 512 NJ 512 1930
+preplace netloc SYSTEM|AXI_DMA_s2mm_introut 1 2 1 N
+preplace netloc SYSTEM_DDR 1 2 1 2120J
+preplace netloc S_AXIS_1 1 0 3 -80 10 NJ 10 2110
+preplace netloc SYSTEM|S00_AXI_1 1 0 5 550 62 850J 342 NJ 342 NJ 342 1930
+preplace netloc SYSTEM|Conn1 1 2 3 1210 352 NJ 352 NJ
+preplace netloc SYSTEM|AXI_DMA_mm2s_introut 1 2 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -70 20 NJ 20 2100
+preplace netloc SYSTEM|Conn2 1 4 1 N
+preplace netloc ACCEL|Conn1 1 0 1 N
+preplace netloc SYSTEM|Conn3 1 0 2 NJ 322 840J
+preplace netloc SYSTEM|PS7_FCLK_RESET0_N 1 3 2 1500 372 1920
+preplace netloc SYSTEM|IRQ_CONCAT_dout 1 3 1 N
+preplace netloc ACCEL|Conn2 1 1 1 N
+levelinfo -pg 1 -100 150 630 2150 -top 0 -bot 750
+levelinfo -hier ACCEL * 210 *
+levelinfo -hier SYSTEM * 700 1030 1350 1710 *
+"
+}
+

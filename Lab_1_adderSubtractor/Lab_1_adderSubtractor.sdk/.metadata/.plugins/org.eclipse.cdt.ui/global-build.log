@@ -1,0 +1,1901 @@
+16:04:25 **** Build of project Lab1_Full_adder_TB_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project Full_adder_TB ****
+
+Nothing to build for project Full_adder_TB
+16:05:58 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:10:2: error: unknown type name 'bool'; did you mean '_Bool'?
+  bool k;
+  ^~~~
+  _Bool
+../src/Full_adderSub.c:17:2: error: expected ';' before 'regmap'
+  regmap[2] = 1;
+  ^~~~~~
+../src/Full_adderSub.c:20:2: error: expected expression at end of input
+  printf("%2zu + %2zu = %3zu (%s)\n",
+  ^~~~~~
+../src/Full_adderSub.c:20:2: error: expected declaration or statement at end of input
+../src/Full_adderSub.c:19:9: warning: unused variable 'c' [-Wunused-variable]
+  size_t c = regmap[2];
+         ^
+../src/Full_adderSub.c:18:9: warning: unused variable 'r' [-Wunused-variable]
+  size_t r = regmap[0];
+         ^
+../src/Full_adderSub.c:10:7: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+  bool k;
+       ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+16:08:14 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:17:2: error: expected ';' before 'regmap'
+  regmap[2] = k;
+  ^~~~~~
+../src/Full_adderSub.c:20:13: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'char *' [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+          ~~~^                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          %2s
+../src/Full_adderSub.c:20:20: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+                 ~~~^
+../src/Full_adderSub.c:20:27: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+                        ~~~^
+../src/Full_adderSub.c:20:31: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+                              ~^
+../src/Full_adderSub.c:22:2: error: expected declaration or statement at end of input
+  return 0;
+  ^~~~~~
+../src/Full_adderSub.c:19:9: warning: unused variable 'c' [-Wunused-variable]
+  size_t c = regmap[2];
+         ^
+../src/Full_adderSub.c:10:9: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+  size_t k;
+         ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+16:08:31 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:20:13: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'char *' [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+          ~~~^                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          %2s
+../src/Full_adderSub.c:20:20: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+                 ~~~^
+../src/Full_adderSub.c:20:27: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+                        ~~~^
+../src/Full_adderSub.c:20:31: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", (r == A + B) ? "COR" : "ERR");
+                              ~^
+../src/Full_adderSub.c:22:2: error: expected declaration or statement at end of input
+  return 0;
+  ^~~~~~
+../src/Full_adderSub.c:19:9: warning: unused variable 'c' [-Wunused-variable]
+  size_t c = regmap[2];
+         ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+16:09:27 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:20:13: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'char *' [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+          ~~~^                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          %2s
+../src/Full_adderSub.c:20:20: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                 ~~~^
+../src/Full_adderSub.c:20:27: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                        ~~~^
+../src/Full_adderSub.c:20:31: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                              ~^
+../src/Full_adderSub.c:22:2: error: expected declaration or statement at end of input
+  return 0;
+  ^~~~~~
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+16:10:46 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:20:13: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'char *' [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+          ~~~^                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          %2s
+../src/Full_adderSub.c:20:20: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                 ~~~^
+../src/Full_adderSub.c:20:27: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                        ~~~^
+../src/Full_adderSub.c:20:31: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  printf("%2zu + %2zu = %3zu (%s)\n", ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                              ~^
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	   2580	  23328	  96348	  1785c	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:12:19 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	   2580	  23328	  96348	  1785c	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:14:58 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:20:17: warning: format '%zu' expects argument of type 'size_t', but argument 3 has type 'char *' [-Wformat=]
+  printf("%2zu %zu %2zu = %3zu (%s)\n", A,(k == 1) ? "-" : "+",
+               ~~^                        ~~~~~~~~~~~~~~~~~~~~
+               %s
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70448	   2580	  23328	  96356	  17864	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:15:12 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70448	   2580	  23328	  96356	  17864	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:24:13 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70448	   2580	  23328	  96356	  17864	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:26:10 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70448	   2580	  23328	  96356	  17864	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:26:49 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:27:31 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70448	   2580	  23328	  96356	  17864	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:28:07 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:31:46 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70512	   2580	  23328	  96420	  178a4	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:31:54 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:41:30 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70640	   2580	  23328	  96548	  17924	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:52:50 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70912	   2580	  23328	  96820	  17a34	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:53:01 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:57:30 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71104	   2580	  23328	  97012	  17af4	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:57:40 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:59:23 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71104	   2580	  23328	  97012	  17af4	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:03:37 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71104	   2580	  23328	  97012	  17af4	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:06:35 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:43:14: error: 'A' undeclared (first use in this function)
+  regmap[0] = A;
+              ^
+../src/Full_adderSub.c:43:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/Full_adderSub.c:44:16: error: 'B' undeclared (first use in this function)
+    regmap[1] = B;
+                ^
+../src/Full_adderSub.c:45:16: error: 'k' undeclared (first use in this function)
+    regmap[2] = k;
+                ^
+../src/Full_adderSub.c:48:42: error: expected expression before ',' token
+    printf("%2zu + %2zu = %3zu (%s)\n", A,,
+                                          ^
+../src/Full_adderSub.c:49:57: error: expected ';' before ')' token
+       B, r,  ((r == A + B) && (c == 1)) ? "COR" : "ERR"));
+                                                         ^
+../src/Full_adderSub.c:49:57: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+17:07:05 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:49:42: error: expected expression before ',' token
+    printf("%2zu + %2zu = %3zu (%s)\n", A,,
+                                          ^
+../src/Full_adderSub.c:50:57: error: expected ';' before ')' token
+       B, r,  ((r == A + B) && (c == 1)) ? "COR" : "ERR"));
+                                                         ^
+../src/Full_adderSub.c:50:57: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+17:07:42 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:44:2: error: 'size_tB' undeclared (first use in this function); did you mean 'size_t'?
+  size_tB = 1, k = 0;
+  ^~~~~~~
+  size_t
+../src/Full_adderSub.c:44:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Full_adderSub.c:44:15: error: 'k' undeclared (first use in this function)
+  size_tB = 1, k = 0;
+               ^
+../src/Full_adderSub.c:44:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  size_tB = 1, k = 0;
+             ^
+../src/Full_adderSub.c:46:16: error: 'B' undeclared (first use in this function)
+    regmap[1] = B;
+                ^
+../src/Full_adderSub.c:50:42: error: expected expression before ',' token
+    printf("%2zu + %2zu = %3zu (%s)\n", A,,
+                                          ^
+../src/Full_adderSub.c:51:57: error: expected ';' before ')' token
+       B, r,  ((r == A + B) && (c == 1)) ? "COR" : "ERR"));
+                                                         ^
+../src/Full_adderSub.c:51:57: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+17:07:58 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:50:42: error: expected expression before ',' token
+    printf("%2zu + %2zu = %3zu (%s)\n", A,,
+                                          ^
+../src/Full_adderSub.c:51:57: error: expected ';' before ')' token
+       B, r,  ((r == A + B) && (c == 1)) ? "COR" : "ERR"));
+                                                         ^
+../src/Full_adderSub.c:51:57: error: expected statement before ')' token
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+17:08:13 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:50:42: error: expected expression before ',' token
+    printf("%2zu + %2zu = %3zu (%s)\n", A,,
+                                          ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+17:08:18 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71320	   2580	  23328	  97228	  17bcc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:08:29 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:08:48 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71320	   2580	  23328	  97228	  17bcc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:09:01 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:10:24 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:33:23: error: expected expression before '<' token
+  testBench(35624,4352,<size_t> 0); //a+b <= overflow
+                       ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+17:11:12 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71320	   2580	  23328	  97228	  17bcc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:11:27 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:12:01 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:12:51 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:23:14 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71040	   2580	  23328	  96948	  17ab4	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:23:59 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:26:55 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:29:41 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:14:34: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'size_t {aka unsigned int}' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                 ~^
+                                 %d
+../src/Full_adderSub.c:14:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'char *' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                            ~~~^
+                                            %2s
+      B, r,k,  ((r == A - B) && (c == 1)) ? "COR" : "ERR");
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Full_adderSub.c:18:34: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'size_t {aka unsigned int}' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                 ~^
+                                 %d
+../src/Full_adderSub.c:18:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'char *' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                            ~~~^
+                                            %2s
+       B, r,k,  ((r == A - B) && (c == 0)) ? "COR" : "ERR");
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Full_adderSub.c:22:34: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'size_t {aka unsigned int}' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                 ~^
+                                 %d
+../src/Full_adderSub.c:22:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'char *' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                            ~~~^
+                                            %2s
+       B, r, k, ((r == A + B) && (c == 1)) ? "COR" : "ERR");
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Full_adderSub.c:26:35: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'size_t {aka unsigned int}' [-Wformat=]
+     printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                  ~^
+                                  %d
+../src/Full_adderSub.c:26:48: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'char *' [-Wformat=]
+     printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                             ~~~^
+                                             %2s
+       B, r,k,  ((r == A + B) && (c == 0)) ? "COR" : "ERR");
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:30:59 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:14:47: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                            ~~~^
+../src/Full_adderSub.c:15:56: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+      B, r,  ((r == A - B) && (c == 1)) ? "COR" : "ERR"), k;
+                                                        ^
+../src/Full_adderSub.c:22:47: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                            ~~~^
+../src/Full_adderSub.c:26:48: warning: format '%zu' expects a matching 'size_t' argument [-Wformat=]
+     printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                             ~~~^
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:31:14 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:31:30 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:32:13 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:32:30 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:34:41 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:34:48 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:35:50 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:36:04 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71048	   2580	  23328	  96956	  17abc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:36:33 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:39:41 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:13:10: warning: unused variable 'C' [-Wunused-variable]
+   double C = A+B;
+          ^
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:40:10 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:40:18 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:41:20 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:41:41 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:43:16 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:43:28 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:43:40 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:44:50 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:47:27 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:49:42 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:50:11 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:50:23 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:50:56 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:51:17 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:51:59 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:52:06 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:52:21 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:52:48 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:53:32 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:53:40 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:56:11 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:56:24 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:56:33 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:57:32 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:57:47 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:58:28 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71112	   2580	  23328	  97020	  17afc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:59:46 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+17:59:57 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:00:27 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:03:20 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:03:33 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:04:01 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:16:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'long long int' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                            ~~~^
+                                            %2llu
+../src/Full_adderSub.c:28:48: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'long long int' [-Wformat=]
+     printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                             ~~~^
+                                             %2llu
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:04:18 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:07:32 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:16:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'long long int' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"-",
+                                            ~~~^
+                                            %2llu
+../src/Full_adderSub.c:28:48: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'long long int' [-Wformat=]
+     printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                             ~~~^
+                                             %2llu
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71368	   2580	  23328	  97276	  17bfc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:08:10 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71368	   2580	  23328	  97276	  17bfc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:08:19 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:08:50 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:09:34 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71368	   2580	  23328	  97276	  17bfc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:12:10 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:24:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'long long int' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                            ~~~^
+                                            %2llu
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71368	   2580	  23328	  97276	  17bfc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:12:20 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:13:04 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'testBench':
+../src/Full_adderSub.c:24:47: warning: format '%zu' expects argument of type 'size_t', but argument 7 has type 'long long int' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) Cout = %2zu\n", A,"+",
+                                            ~~~^
+                                            %2llu
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:13:19 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:13:29 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:16:41 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+18:16:47 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:00:46 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c:5:8: error: conflicting types for 'random'
+ size_t random(size_t lower, size_t upper){
+        ^~~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/Full_adderSub.c:1:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdlib.h:231:6: note: previous declaration of 'random' was here
+ long _EXFUN(random,(_VOID));
+      ^
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:54:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+            ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:54:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+                   ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:55:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+            ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:55:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+                   ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:56:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+            ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:56:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+                   ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:57:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+            ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:57:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+                   ^~~~~~
+../src/Full_adderSub.c:15:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)(size_t,  size_t) {aka unsigned int (*)(unsigned int,  unsigned int)}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+21:02:50 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c:5:8: error: conflicting types for 'random'
+ size_t random(){
+        ^~~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/Full_adderSub.c:1:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdlib.h:231:6: note: previous declaration of 'random' was here
+ long _EXFUN(random,(_VOID));
+      ^
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:56:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+            ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:56:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+                   ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:57:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+            ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:57:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,1);
+                   ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:58:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+            ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:58:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+                   ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:59:12: warning: passing argument 1 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+            ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+../src/Full_adderSub.c:59:19: warning: passing argument 2 of 'testBench' makes integer from pointer without a cast [-Wint-conversion]
+  testBench(random,random,0);
+                   ^~~~~~
+../src/Full_adderSub.c:17:7: note: expected 'size_t {aka unsigned int}' but argument is of type 'size_t (*)() {aka unsigned int (*)()}'
+  void testBench(size_t A, size_t B, size_t k){
+       ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+21:03:38 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c:5:8: error: conflicting types for 'random'
+ size_t random(){
+        ^~~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/Full_adderSub.c:1:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdlib.h:231:6: note: previous declaration of 'random' was here
+ long _EXFUN(random,(_VOID));
+      ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+21:04:42 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c:5:8: error: conflicting types for 'random'
+ size_t random(){
+        ^~~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/Full_adderSub.c:1:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdlib.h:231:6: note: previous declaration of 'random' was here
+ long _EXFUN(random,(_VOID));
+      ^
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+21:06:03 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Full_adder_TB.elf] Error 1
+21:06:22 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Full_adder_TB.elf] Error 1
+21:11:59 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Full_adder_TB.elf] Error 1
+21:14:38 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Full_adder_TB.elf] Error 1
+21:15:23 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+../src/Full_adderSub.c: In function 'main':
+../src/Full_adderSub.c:35:24: error: 'zero' undeclared (first use in this function)
+  testBench(35624,4352, zero); //a+b <= overflow
+                        ^~~~
+../src/Full_adderSub.c:35:24: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/Full_adderSub.o] Error 1
+21:16:11 **** Auto Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+21:17:35 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Full_adderSub.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Full_adderSub.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Full_adderSub.d" -MT"src/Full_adderSub.o" -o "src/Full_adderSub.o" "../src/Full_adderSub.c"
+'Finished building: ../src/Full_adderSub.c'
+' '
+'Building target: Full_adder_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab1_Full_adder_TB_bsp/ps7_cortexa9_0/lib -o "Full_adder_TB.elf"  ./src/Full_adderSub.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Full_adder_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Full_adder_TB.elf  |tee "Full_adder_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71304	   2580	  23328	  97212	  17bbc	Full_adder_TB.elf
+'Finished building: Full_adder_TB.elf.size'
+' '
+16:11:28 **** Incremental Build of configuration Debug for project Full_adder_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

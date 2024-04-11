@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep 19 13:16:06 2023
+# Process ID: 17204
+# Current directory: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_1_adderSubtractor/Lab_1_adderSubtractor.runs/impl_1
+# Command line: vivado.exe -log Full_Adder_Subtractor_32bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Full_Adder_Subtractor_32bit.tcl -notrace
+# Log file: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_1_adderSubtractor/Lab_1_adderSubtractor.runs/impl_1/Full_Adder_Subtractor_32bit.vdi
+# Journal file: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_1_adderSubtractor/Lab_1_adderSubtractor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Full_Adder_Subtractor_32bit.tcl -notrace

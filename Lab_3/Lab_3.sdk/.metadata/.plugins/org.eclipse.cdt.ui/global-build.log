@@ -1,0 +1,841 @@
+09:22:59 **** Build of project Multiplier_unit_TB_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project Multiplier_unit_TB ****
+
+Nothing to build for project Multiplier_unit_TB
+09:23:37 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_3\Lab_3.sdk\Multiplier_unit_TB_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Multiplier_unit_TB.elf] Error 1
+09:25:47 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c:15:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B, size_t shamt, size_t alu_op){
+       ^~~~~~~~~
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19036	   1144	  22568	  42748	   a6fc	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+10:45:58 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'testBench':
+../src/Multiplier_unit_TB.c:28:4: error: expected ',' or ';' before 'printf'
+    printf("A and B =  %3zu (%s) \n", r, ((A & B) == r) ? "COR" : "ERR");
+    ^~~~~~
+../src/Multiplier_unit_TB.c:26:27: warning: unused variable 'Expected_Result' [-Wunused-variable]
+    unsigned long long int Expected_Result =
+                           ^~~~~~~~~~~~~~~
+../src/Multiplier_unit_TB.c:24:27: warning: unused variable 'Result' [-Wunused-variable]
+    unsigned long long int Result = ((unsigned long long int)R_hi << 32)
+                           ^~~~~~
+At top level:
+../src/Multiplier_unit_TB.c:14:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B){
+       ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Multiplier_unit_TB.o] Error 1
+10:46:00 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'testBench':
+../src/Multiplier_unit_TB.c:28:38: error: 'r' undeclared (first use in this function)
+    printf("A and B =  %3zu (%s) \n", r, ((A & B) == r) ? "COR" : "ERR");
+                                      ^
+../src/Multiplier_unit_TB.c:28:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier_unit_TB.c:26:27: warning: unused variable 'Expected_Result' [-Wunused-variable]
+    unsigned long long int Expected_Result =
+                           ^~~~~~~~~~~~~~~
+../src/Multiplier_unit_TB.c:24:27: warning: unused variable 'Result' [-Wunused-variable]
+    unsigned long long int Result = ((unsigned long long int)R_hi << 32)
+                           ^~~~~~
+At top level:
+../src/Multiplier_unit_TB.c:14:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B){
+       ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Multiplier_unit_TB.o] Error 1
+10:47:54 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'testBench':
+../src/Multiplier_unit_TB.c:28:51: error: 'result' undeclared (first use in this function); did you mean 'Result'?
+    printf("%2zu %s %2zu = %3zu (%s) \n", A,"*",B, result,
+                                                   ^~~~~~
+                                                   Result
+../src/Multiplier_unit_TB.c:28:51: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier_unit_TB.c:29:51: error: 'c' undeclared (first use in this function)
+      (Result == Expected_Result) ? "COR" : "ERR", c);
+                                                   ^
+At top level:
+../src/Multiplier_unit_TB.c:14:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B){
+       ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Multiplier_unit_TB.o] Error 1
+10:47:59 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'testBench':
+../src/Multiplier_unit_TB.c:28:51: error: 'result' undeclared (first use in this function); did you mean 'Result'?
+    printf("%2zu %s %2zu = %3zu (%s) \n", A,"*",B, result,
+                                                   ^~~~~~
+                                                   Result
+../src/Multiplier_unit_TB.c:28:51: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/Multiplier_unit_TB.c:14:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B){
+       ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Multiplier_unit_TB.o] Error 1
+10:48:10 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'testBench':
+../src/Multiplier_unit_TB.c:28:30: warning: format '%zu' expects argument of type 'size_t', but argument 5 has type 'long long unsigned int' [-Wformat=]
+    printf("%2zu %s %2zu = %3zu (%s) \n", A,"*",B, Result,
+                           ~~~^
+                           %3llu
+At top level:
+../src/Multiplier_unit_TB.c:14:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B){
+       ^~~~~~~~~
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19036	   1144	  22568	  42748	   a6fc	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+10:50:26 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c:14:7: warning: 'testBench' defined but not used [-Wunused-function]
+  void testBench(size_t A, size_t B){
+       ^~~~~~~~~
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19036	   1144	  22568	  42748	   a6fc	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+10:50:49 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70696	   2580	  23328	  96604	  1795c	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+10:52:03 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:52:20 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:54:11 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70720	   2580	  23328	  96628	  17974	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+10:54:13 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:54:55 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:56:56 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'testBench':
+../src/Multiplier_unit_TB.c:21:4: warning: implicit declaration of function 'printF'; did you mean 'printf'? [-Wimplicit-function-declaration]
+    printF("ready");
+    ^~~~~~
+    printf
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Multiplier_unit_TB.o: In function `testBench':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_3\Lab_3.sdk\Multiplier_unit_TB\Debug/../src/Multiplier_unit_TB.c:21: undefined reference to `printF'
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_3\Lab_3.sdk\Multiplier_unit_TB\Debug/../src/Multiplier_unit_TB.c:24: undefined reference to `printF'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Multiplier_unit_TB.elf] Error 1
+10:57:16 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Multiplier_unit_TB.o: In function `testBench':
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_3\Lab_3.sdk\Multiplier_unit_TB\Debug/../src/Multiplier_unit_TB.c:21: undefined reference to `printF'
+C:\Users\tyqca\OneDrive\School\Labs\1195_Labs\Lab_3\Lab_3.sdk\Multiplier_unit_TB\Debug/../src/Multiplier_unit_TB.c:24: undefined reference to `printF'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Multiplier_unit_TB.elf] Error 1
+10:57:35 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70816	   2580	  23328	  96724	  179d4	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+10:57:38 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:03:12 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:04:02 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70696	   2580	  23328	  96604	  1795c	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+11:04:10 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:05:26 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:06:09 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70720	   2580	  23328	  96628	  17974	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+11:06:34 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:08:14 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70932	   2580	  23328	  96840	  17a48	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+11:08:18 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:10:04 **** Clean-only build of project Multiplier_unit_TB_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+12:10:05 **** Clean-only build of configuration Debug for project Multiplier_unit_TB ****
+make clean 
+rm -rf  ./src/Multiplier_unit_TB.o  ./src/Multiplier_unit_TB.d  Multiplier_unit_TB.elf.size  Multiplier_unit_TB.elf
+' '
+12:10:05 **** Build of project Multiplier_unit_TB_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+12:10:22 **** Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70932	   2580	  23328	  96840	  17a48	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+12:10:45 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:11:31 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:22:49 **** Clean-only build of project Multiplier_unit_TB_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+12:22:50 **** Clean-only build of configuration Debug for project Multiplier_unit_TB ****
+make clean 
+rm -rf  ./src/Multiplier_unit_TB.o  ./src/Multiplier_unit_TB.d  Multiplier_unit_TB.elf.size  Multiplier_unit_TB.elf
+' '
+12:22:50 **** Build of project Multiplier_unit_TB_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+12:23:07 **** Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70932	   2580	  23328	  96840	  17a48	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+12:23:38 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:30:53 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70932	   2580	  23328	  96840	  17a48	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+12:30:58 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:29:41 **** Auto Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier_unit_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier_unit_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier_unit_TB.d" -MT"src/Multiplier_unit_TB.o" -o "src/Multiplier_unit_TB.o" "../src/Multiplier_unit_TB.c"
+../src/Multiplier_unit_TB.c: In function 'main':
+../src/Multiplier_unit_TB.c:38:12: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  testBench(23532356725, 23452);
+            ^~~~~~~~~~~
+../src/Multiplier_unit_TB.c:39:18: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  testBench(2313, 36578467854);
+                  ^~~~~~~~~~~
+'Finished building: ../src/Multiplier_unit_TB.c'
+' '
+'Building target: Multiplier_unit_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_unit_TB_bsp/ps7_cortexa9_0/lib -o "Multiplier_unit_TB.elf"  ./src/Multiplier_unit_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier_unit_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier_unit_TB.elf  |tee "Multiplier_unit_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71060	   2580	  23328	  96968	  17ac8	Multiplier_unit_TB.elf
+'Finished building: Multiplier_unit_TB.elf.size'
+' '
+14:47:00 **** Incremental Build of configuration Debug for project Multiplier_unit_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

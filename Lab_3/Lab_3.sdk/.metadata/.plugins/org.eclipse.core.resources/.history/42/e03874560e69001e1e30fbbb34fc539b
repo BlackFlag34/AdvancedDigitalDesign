@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+	uint32_t *regmap = (uint32_t *) 0x70000000;
+	// A = regmap[0]
+	// B = regmap[1]
+	// rst = regmap[2]
+	// R_hi = regmap[0]
+	// R_lo = regmap[1]
+	// done = regmap[2]
+
+	void testBench(size_t A, size_t B){
+			regmap[0] = A;
+			regmap[1] = B;
+			regmap[2] = 0;
+			for(int i = 0; i<100; i++){}
+			regmap[2] = 1;
+			size_t done = regmap[2];
+			while(done == 0){done = regmap[2];}
+			size_t R_hi = regmap[0];
+			size_t R_lo = regmap[1];
+			unsigned long long int Result = ((unsigned long long int)R_hi << 32)
+											+ (unsigned long long int)R_lo;
+			unsigned long long int Expected_Result =
+					(unsigned long long int)A * (unsigned long long int)B;
+			printf("%2zu %s %2zu = %3zu (%s) \n", A,"*",B, result,
+					(Result == Expected_Result) ? "COR" : "ERR", c);
+	}
+
+
+
+	return 0;
+}
+
+
+

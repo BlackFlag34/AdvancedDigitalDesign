@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,axi_vip_v1_1_4;processing_system7_vip_v1_0_6;xilinx_vip,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd,1696608619,vhdl,,,,flipflop,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/imports/IntraLab_resources/mealy_4s.vhd,1696608620,vhdl,,,,mealy_4s,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/imports/IntraLab_resources/moore_4s.vhd,1696608622,vhdl,,,,moore_4s,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/imports/adder/adder.vhd,1696953650,vhdl,,,,adder,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Control_Unit.vhd,1699148794,vhdl,,,,control_unit,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Generic_bit_counter.vhd,1699148383,vhdl,,,,generic_bit_counter,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSL_Resgister_AsyncReset.vhd,1697039156,vhdl,,,,lsl_resgister_asyncreset,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/LSR_Register_AsyncReset.vhd,1697039129,vhdl,,,,lsr_register_asyncreset,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Multiplyer_unit.vhd,1699149021,vhdl,,,,multiplyer_unit,,,,,,,,
+C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd,1697062985,vhdl,,,,register_asyncreset,,,,,,,,

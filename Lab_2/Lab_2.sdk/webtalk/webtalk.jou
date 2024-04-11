@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Thu Sep 28 23:18:26 2023
+# Process ID: 29132
+# Current directory: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Lab_2/Lab_2.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

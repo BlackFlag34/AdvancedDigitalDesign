@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab_4.srcs/sources_1/imports/1195_Labs/Lab_3/Lab_3.srcs/sources_1/new/Register_AsyncReset.vhd" \
+"../../../../Lab_4.srcs/sources_1/imports/IntraLab_resources/flipflop.vhd" \
+"../../../../Lab_4.srcs/sources_1/new/Register_File.vhd" \
+
+# Do not sort compile order
+nosort

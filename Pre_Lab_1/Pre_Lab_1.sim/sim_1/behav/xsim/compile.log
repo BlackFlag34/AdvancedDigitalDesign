@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Pre_Lab_1/Pre_Lab_1.srcs/sources_1/imports/Pre_Lab_1/pre_lab.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pre_lab'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tyqca/OneDrive/School/Labs/1195_Labs/Pre_Lab_1/Pre_Lab_1.srcs/sources_1/imports/Pre_Lab_1/pre_lab_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pre_lab_tb'

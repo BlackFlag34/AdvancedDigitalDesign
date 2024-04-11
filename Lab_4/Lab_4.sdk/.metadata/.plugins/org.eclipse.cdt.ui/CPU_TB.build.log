@@ -1,0 +1,27 @@
+20:47:48 **** Auto Build of configuration Debug for project CPU_TB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/CPU_TB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CPU_TB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CPU_TB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/CPU_TB.d" -MT"src/CPU_TB.o" -o "src/CPU_TB.o" "../src/CPU_TB.c"
+In file included from ../src/CPU_TB.c:4:0:
+../../CPU_TB_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+'Finished building: ../src/CPU_TB.c'
+' '
+'Building target: CPU_TB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CPU_TB_bsp/ps7_cortexa9_0/lib -o "CPU_TB.elf"  ./src/CPU_TB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: CPU_TB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size CPU_TB.elf  |tee "CPU_TB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73092	   3292	  23328	  99712	  18580	CPU_TB.elf
+'Finished building: CPU_TB.elf.size'
+' '
+
+20:47:49 Build Finished (took 759ms)
+
